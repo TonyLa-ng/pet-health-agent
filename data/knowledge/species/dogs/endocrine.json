@@ -1,0 +1,327 @@
+[
+  {
+    "id": "canine-endo-001",
+    "disease": "糖尿病",
+    "species": [
+      "犬"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "多饮多尿",
+        "食欲增加",
+        "体重下降"
+      ],
+      "secondary": [
+        "白内障",
+        "反复尿路感染",
+        "被毛粗糙"
+      ],
+      "detail": {
+        "多饮多尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲增加": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "犬糖尿病多为胰岛素依赖型（类似人1型），因胰岛β细胞破坏导致胰岛素绝对缺乏。血糖持续升高+果糖胺升高+尿糖阳性可确诊。",
+    "home_care": "每日定时胰岛素注射（兽医处方）\n固定时间和量的糖尿病处方粮\n定期血糖监测（血糖曲线）\n控制体重\n预防低血糖",
+    "forbidden_care": [
+      {
+        "rule": "禁止随意改变胰岛素剂量",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不按处方粮喂食",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不规律进食（可能导致低血糖）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "库兴氏综合征",
+        "differentiator": "库兴氏多饮多尿+食欲增加，但体重不降（甚至增加），腹部膨大，皮肤变薄",
+        "key_questions": [
+          "犬有无对称性脱毛和腹部膨大？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物内分泌学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-endo-002",
+    "disease": "库兴氏综合征",
+    "species": [
+      "犬"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "多饮多尿",
+        "食欲增加",
+        "腹部膨大"
+      ],
+      "secondary": [
+        "对称性脱毛",
+        "皮肤变薄",
+        "反复感染",
+        "肌肉萎缩"
+      ],
+      "detail": {
+        "多饮多尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲增加": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "腹部膨大": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "库兴氏综合征（肾上腺皮质功能亢进）因糖皮质激素过量分泌引起。分为垂体依赖型（85%）和肾上腺肿瘤型（15%）。ACTH刺激试验+低剂量地塞米松抑制试验可确诊。",
+    "home_care": "按医嘱服用曲洛司坦/米托坦\n定期ACTH刺激试验监测药效\n控制饮水和饮食\n监测皮肤感染",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行调整药物剂量",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不监测（药物过量可导致Addison危象）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "糖尿病",
+        "differentiator": "糖尿病血糖显著升高+尿糖阳性+体重下降，库兴氏体重不降",
+        "key_questions": [
+          "犬有无白内障？血糖是否升高？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物内分泌学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-endo-003",
+    "disease": "甲状腺功能减退",
+    "species": [
+      "犬"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "嗜睡",
+        "体重增加",
+        "对称性脱毛"
+      ],
+      "secondary": [
+        "皮肤干燥",
+        "怕冷",
+        "心率减慢",
+        "不育"
+      ],
+      "detail": {
+        "嗜睡": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重增加": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "对称性脱毛": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "low",
+    "diagnosis_basis": "甲状腺功能减退是犬最常见的内分泌病，因甲状腺激素分泌不足引起。多见于中型犬（金毛/杜宾/可卡）。TT4+FT4+TSH检测可确诊。",
+    "home_care": "终身服用左甲状腺素\n定期监测TT4调整剂量\n控制体重\n皮肤护理",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行停药（需终身服药）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不监测血药浓度",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "库兴氏综合征",
+        "differentiator": "库兴氏多饮多尿+皮肤薄，甲减嗜睡+怕冷+皮肤干厚",
+        "key_questions": [
+          "犬是怕冷还是多饮多尿？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物内分泌学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-endo-004",
+    "disease": "Addison病（肾上腺皮质功能减退）",
+    "species": [
+      "犬"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "反复呕吐",
+        "腹泻",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "体重下降",
+        "脱水",
+        "心率减慢"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "Addison病是肾上腺皮质功能减退导致糖皮质激素和盐皮质激素分泌不足。可急性发作（Addison危象：休克+高钾+低钠+低血糖）。ACTH刺激试验可确诊。",
+    "home_care": "终身激素替代治疗（泼尼松+氟氢可的松/DOCP）\n定期电解质监测\n应激时增加激素剂量",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行停药（可致死）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止应激时不增加剂量",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肾衰竭",
+        "differentiator": "Addison病钾高钠低，肾衰钾可高可正常；ACTH刺激试验可区分",
+        "key_questions": [
+          "有无做过电解质检查？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-endo-005",
+    "disease": "胰岛瘤（低血糖）",
+    "species": [
+      "犬"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "反复虚弱/昏厥",
+        "抽搐",
+        "嗜睡"
+      ],
+      "secondary": [
+        "食欲增加",
+        "体重增加",
+        "运动不耐受"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "胰岛瘤是胰腺β细胞肿瘤导致胰岛素过度分泌→顽固性低血糖。胰岛素/血糖比值>0.3支持诊断。B超/CT可定位肿瘤。手术治疗是首选。",
+    "home_care": "少量多餐（高蛋白低碳水）\n避免长时间空腹\n严重者需泼尼松控制低血糖\n手术切除（如有明确肿瘤）",
+    "forbidden_care": [
+      {
+        "rule": "禁止长时间禁食",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止喂食高糖食物（刺激胰岛素释放→反跳性低血糖）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肝功能衰竭",
+        "differentiator": "肝衰竭伴黄疸+肝酶升高，餐前餐后血糖均偏低",
+        "key_questions": [
+          "血糖最低降到多少？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

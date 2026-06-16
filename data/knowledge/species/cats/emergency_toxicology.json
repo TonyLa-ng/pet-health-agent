@@ -1,0 +1,114 @@
+[
+  {
+    "id": "feline-tox-001",
+    "disease": "猫百合花中毒",
+    "species": [
+      "猫"
+    ],
+    "category": "中毒",
+    "symptoms": {
+      "primary": [
+        "呕吐",
+        "流涎",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "少尿或无尿（急性肾衰竭）",
+        "食欲废绝",
+        "嗜睡"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "百合花（所有部位：花/叶/花粉/水盆中的水）对猫剧毒，少量摄入即可致急性肾衰竭。确切毒素机制不明。摄入后12-24小时出现肾衰竭症状。",
+    "home_care": "⚠️ 立即就医（摄入2小时内催吐）\n静脉输液利尿保护肾脏（至少48小时）\n监测肾功能\n血液透析（严重者）",
+    "forbidden_care": [
+      {
+        "rule": "禁止在家中养猫时种植百合花",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止等待症状出现再就医",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "防冻液中毒",
+        "differentiator": "防冻液可见尿液草酸钙结晶；百合花靠摄入史+无结晶尿区分",
+        "key_questions": [
+          "猫有无可能接触百合花？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-tox-002",
+    "disease": "猫对乙酰氨基酚（扑热息痛）中毒",
+    "species": [
+      "猫"
+    ],
+    "category": "中毒",
+    "symptoms": {
+      "primary": [
+        "面部/爪部水肿",
+        "发绀（高铁血红蛋白血症）",
+        "呼吸困难"
+      ],
+      "secondary": [
+        "呕吐",
+        "黄疸",
+        "精神萎靡"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "对乙酰氨基酚（扑热息痛/Tylenol）对猫剧毒！猫缺乏葡萄糖醛酸转移酶无法代谢，极低剂量（10mg/kg，即人用325mg片剂的1/8片）即可致死。导致高铁血红蛋白血症+肝坏死。",
+    "home_care": "⚠️ 立即就医，这是致命中毒\nN-乙酰半胱氨酸+维生素C（兽医操作）\n吸氧\n输血",
+    "forbidden_care": [
+      {
+        "rule": "⚠️ 绝对禁止给猫喂任何人用止痛药！",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止等待观察",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "其他高铁血红蛋白血症",
+        "differentiator": "依靠药物摄入史+血药浓度检测区分",
+        "key_questions": [
+          "猫有无可能吃到人用止痛药？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

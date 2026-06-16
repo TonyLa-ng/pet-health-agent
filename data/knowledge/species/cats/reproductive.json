@@ -1,0 +1,247 @@
+[
+  {
+    "id": "feline-repro-001",
+    "disease": "猫子宫蓄脓",
+    "species": [
+      "猫"
+    ],
+    "category": "产科",
+    "symptoms": {
+      "primary": [
+        "阴道分泌物（脓性）",
+        "多饮多尿",
+        "食欲下降"
+      ],
+      "secondary": [
+        "腹部胀大",
+        "发热",
+        "呕吐",
+        "精神萎靡"
+      ],
+      "detail": {
+        "阴道分泌物（脓性）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "多饮多尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫子宫蓄脓是中老年未绝育母猫的急症，但发病率低于犬。开放型可见脓性分泌物，闭锁型更危险。血常规+B超可确诊。卵巢子宫切除术是首选治疗。",
+    "home_care": "⚠️ 此为致命急症，需立即就医\n尽快手术\n术前输液+抗生素稳定体况",
+    "forbidden_care": [
+      {
+        "rule": "禁止等待观察",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止对未绝育母猫不做预防",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "正常妊娠",
+        "differentiator": "B超可鉴别子宫积脓（无胎儿）与妊娠（有胎儿）",
+        "key_questions": [
+          "母猫是否绝育？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-repro-002",
+    "disease": "猫乳腺肿瘤",
+    "species": [
+      "猫"
+    ],
+    "category": "产科",
+    "symptoms": {
+      "primary": [
+        "乳腺肿块",
+        "乳腺肿大",
+        "溃疡"
+      ],
+      "secondary": [
+        "体重下降",
+        "食欲下降",
+        "呼吸困难（肺转移）"
+      ],
+      "detail": {
+        "乳腺肿块": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "乳腺肿大": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "溃疡": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫乳腺肿瘤多为恶性（腺癌），早期绝育（6月龄前）可显著降低风险。细针穿刺细胞学+病理活检可诊断。早期根治性手术切除是最佳治疗。",
+    "home_care": "尽早手术切除（单侧乳腺全切）\n术后化疗（遵医嘱）\n定期复查（X光排查肺转移）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不做绝育（早期绝育可预防）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止发现肿块后拖延",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "乳腺增生",
+        "differentiator": "乳腺增生多见于年轻猫/假孕猫，质地较软，停药/孕酮消退后可缩小",
+        "key_questions": [
+          "猫是否绝育？年龄多大？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-repro-003",
+    "disease": "猫乳腺纤维腺瘤样增生",
+    "species": [
+      "猫"
+    ],
+    "category": "产科",
+    "symptoms": {
+      "primary": [
+        "乳腺显著肿大",
+        "乳腺坚实"
+      ],
+      "secondary": [
+        "无痛",
+        "可能对称或不对称"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫乳腺纤维腺瘤样增生（Fibroadenomatous hyperplasia）是年轻未绝育母猫或接受孕酮治疗的猫因孕酮刺激导致的乳腺良性快速增生。绝育或停用孕酮后通常自行消退。",
+    "home_care": "绝育（治疗+预防）\n停用任何含孕酮的药物\n观察消退情况（通常数周至数月消退）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不经检查就诊断为肿瘤（可穿刺细胞学鉴别）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "乳腺肿瘤",
+        "differentiator": "肿瘤多见于老年猫、质地硬、不消退、可能破溃",
+        "key_questions": [
+          "猫年龄多大？是否绝育？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-repro-004",
+    "disease": "猫难产",
+    "species": [
+      "猫"
+    ],
+    "category": "产科",
+    "symptoms": {
+      "primary": [
+        "努责超过30分钟无胎儿娩出",
+        "超过预产期",
+        "绿色分泌物无胎儿娩出"
+      ],
+      "secondary": [
+        "虚弱",
+        "发热",
+        "精神萎靡"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫难产原因包括母体因素（子宫收缩无力/骨盆狭窄）和胎儿因素（胎儿过大/胎位不正）。距上一只胎儿娩出超过2-4小时需警惕。",
+    "home_care": "⚠️ 立即就医\n可能需要剖腹产\n路途中保持母猫安静",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行助产",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止等待超过2小时",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "正常分娩",
+        "differentiator": "正常分娩应有规律宫缩，每只间隔不超过2小时",
+        "key_questions": [
+          "距上一只已过多久？有无规律宫缩？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

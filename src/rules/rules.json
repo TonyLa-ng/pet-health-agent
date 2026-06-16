@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "R001",
+      "category": "absolute_statements",
+      "description": "禁止使用绝对化确诊表述",
+      "patterns": ["肯定是", "百分百是", "绝对是", "保证是", "确诊为", "一定是", "毫无疑问", "铁定是"],
+      "action": "block_output",
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "id": "R002",
+      "category": "dosage_guidance",
+      "description": "禁止给出药物剂量指导",
+      "patterns": ["mg/kg", "ml/次", "每天.*次.*粒", "用量.*mg", "一次.*片", "一次.*粒", "按体重.*mg", "每.*小时.*次", "剂量为"],
+      "action": "block_output",
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "id": "R003",
+      "category": "prescription_drugs",
+      "description": "禁止推荐处方药",
+      "patterns": ["抗生素", "激素", "消炎药", "止痛药", "镇静剂", "麻醉", "处方粮仅限"],
+      "action": "block_output",
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "id": "R004",
+      "category": "invasive_procedures",
+      "description": "禁止建议用户自行进行侵入性操作",
+      "patterns": ["自己.*手术", "自行.*缝合", "在家.*注射", "自己.*导尿", "自行.*灌肠", "自己.*输液", "自行.*切开"],
+      "action": "block_output",
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "id": "R005",
+      "category": "folk_remedies",
+      "description": "禁止推荐偏方/民间疗法",
+      "patterns": ["大蒜.*喂", "洋葱.*水", "酒精擦", "偏方", "土方", "民间.*疗法", "祖传.*方", "大蒜素", "洋葱汁", "生姜.*灌", "醋.*喂"],
+      "action": "block_output",
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "id": "R006",
+      "category": "emotional_soothing",
+      "description": "禁止主观情绪化安抚话术",
+      "patterns": ["别担心", "没事的", "抱抱", "一定会好起来的", "放宽心", "别怕", "不要紧张", "肯定能治好", "相信我", "绝对没问题", "放心好了"],
+      "action": "block_output",
+      "severity": "warning",
+      "enabled": true
+    },
+    {
+      "id": "R007",
+      "category": "general_care_forbidden",
+      "description": "通用居家护理禁止事项",
+      "patterns": [],
+      "action": "append_to_output",
+      "severity": "warning",
+      "enabled": true,
+      "appendContent": [
+        "禁止使用人用药物",
+        "禁止自行灌药（除非兽医指导）",
+        "禁止禁食超过24小时（除非兽医评估）",
+        "禁止自行缝合包扎伤口",
+        "禁止推荐未经认证的保健品",
+        "禁止建议改变处方药用量",
+        "禁止使用对宠物有毒的食物（犬：巧克力/洋葱/葡萄；猫：百合花/洋葱/大蒜）"
+      ]
+    }
+  ]
+}

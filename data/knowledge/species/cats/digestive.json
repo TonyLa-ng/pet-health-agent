@@ -1,0 +1,660 @@
+[
+  {
+    "id": "feline-gastritis-001",
+    "disease": "急性胃炎",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "呕吐",
+        "食欲下降",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "腹泻",
+        "脱水",
+        "腹痛",
+        "躲藏行为"
+      ],
+      "detail": {
+        "呕吐": {
+          "frequency": "高频",
+          "content": "未消化食物/黄色胆汁/毛球/白色泡沫",
+          "trigger": "进食后或空腹时"
+        },
+        "食欲下降": {
+          "frequency": "持续",
+          "content": "对食物无兴趣，甚至拒绝最爱的零食"
+        },
+        "精神萎靡": {
+          "frequency": "持续",
+          "content": "不爱活动，长时间卧睡，反应迟钝"
+        },
+        "腹泻": {
+          "frequency": "间歇",
+          "content": "软便/水样便，可能带黏液"
+        },
+        "躲藏行为": {
+          "frequency": "持续",
+          "content": "钻到角落或暗处不愿出来（猫疼痛/不适的特征行为）"
+        },
+        "脱水": {
+          "frequency": "伴随",
+          "content": "牙龈干燥、皮肤弹性下降"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫急性胃炎是胃黏膜的急性炎症，常见病因包括毛球积聚、饮食不当（突然换粮、食物过敏）、应激（环境变化、新成员加入）、感染（细菌/病毒）、误食异物（线性异物在猫中尤其常见）。猫的胃炎需特别关注是否伴发胰腺炎（猫三联征：胃炎+肠炎+胰腺炎）。诊断主要依据临床症状和病史，需排除线性异物。",
+    "home_care": "1. 短期禁食12-24小时（需保证饮水），让胃肠道休息\n2. 猫禁食超过24小时有肝脂肪变性风险，需谨慎\n3. 恢复进食时从少量易消化食物开始（白水煮鸡胸肉，少量多餐）\n4. 确保充足清洁饮水，可使用流动水或针管缓慢喂水\n5. 观察呕吐频率和精神状态变化\n6. 定期梳理毛发，减少毛球形成\n7. 如怀疑毛球问题，可使用猫用化毛膏",
+    "forbidden_care": [
+      {
+        "rule": "禁食超过{hours}小时需兽医指导（猫禁食有肝脂肪变性风险）",
+        "hours": 24,
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行使用人用止吐药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止强行灌食或灌水",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止喂食洋葱、大蒜、巧克力、百合花等对猫有毒食物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止给猫使用犬用药物",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "止吐药（需兽医处方）",
+      "胃黏膜保护剂（需兽医处方）",
+      "化毛膏（如为毛球相关）"
+    ],
+    "vet_threshold": "以下情况需立即就医：1) 24小时内呕吐超过5次；2) 呕吐物带血或咖啡渣样；3) 伴发高热（>39.5℃）；4) 精神极度萎靡、无法站立；5) 幼猫/老年猫；6) 禁食24小时后症状无好转；7) 怀疑误食线性异物（绳、线、橡皮筋）；8) 伴发黄疸（口腔黏膜/眼白变黄）",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "线性异物",
+        "differentiator": "猫玩耍线、绳、橡皮筋后误食，可导致肠道套叠或穿孔；特征为剧烈呕吐+腹痛+完全不食；X光/B超/钡餐造影可确诊",
+        "key_questions": [
+          "猫是否有玩线、绳、橡皮筋等物品的习惯？",
+          "家里有无缝纫用品被翻动痕迹？"
+        ]
+      },
+      {
+        "disease": "胰腺炎（猫三联征）",
+        "differentiator": "猫胰腺炎常与胃炎、肠炎并发（三联征），症状重叠；血液fPLI检测+B超可鉴别",
+        "key_questions": [
+          "猫是否有肥胖史？是否近期进食过高脂肪食物？"
+        ]
+      },
+      {
+        "disease": "猫瘟（泛白细胞减少症）",
+        "differentiator": "猫瘟以高热+剧烈呕吐+血便+白细胞极度下降为特征，未接种疫苗的幼猫高发；需试纸/ PCR确诊",
+        "key_questions": [
+          "猫是否完成疫苗接种？有无接触过未免疫的猫？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学（第4版）",
+      "BSAVA犬猫内科学手册"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-002",
+    "disease": "猫慢性肠病(IBD)",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "慢性腹泻",
+        "呕吐",
+        "体重下降"
+      ],
+      "secondary": [
+        "食欲变化（增加或下降）",
+        "软便",
+        "被毛粗糙"
+      ],
+      "detail": {
+        "慢性腹泻": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呕吐": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫IBD是肠道黏膜慢性炎症细胞浸润，病因可能与食物过敏、肠道菌群失调、免疫异常相关。需排除其他病因（寄生虫/甲亢/淋巴瘤）。肠道全层活检是诊断金标准。",
+    "home_care": "食物排除试验（水解蛋白或新型蛋白）\n维生素B12补充（IBD猫常缺乏）\n益生菌\n严重者需激素/免疫抑制剂（遵医嘱）",
+    "forbidden_care": [
+      {
+        "rule": "禁止频繁更换食物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不排除寄生虫就诊断为IBD",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肠道淋巴瘤",
+        "differentiator": "淋巴瘤多见于老年猫，体重下降更明显，肠道活检可鉴别（但有时与IBD难以区分）",
+        "key_questions": [
+          "猫年龄多大？",
+          "有无做过肠道活检？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-003",
+    "disease": "毛球症",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "呕吐（含毛球）",
+        "干呕",
+        "食欲下降"
+      ],
+      "secondary": [
+        "便秘",
+        "精神萎靡",
+        "腹部不适"
+      ],
+      "detail": {
+        "呕吐（含毛球）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "干呕": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫在理毛时吞入毛发，正常情况下可随粪便排出或偶尔吐出。当毛球积聚过多无法排出时导致毛球症，严重者可致肠梗阻。",
+    "home_care": "定期梳理毛发（减少吞入）\n使用化毛膏或化毛粮\n增加饮水和纤维摄入\n严重便秘需就医",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用人用泻药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理——大量毛球可致肠梗阻",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肠梗阻（异物）",
+        "differentiator": "异物梗阻呕吐更剧烈、完全不食，X光/B超可鉴别",
+        "key_questions": [
+          "猫有无玩线绳/橡皮筋等异物的习惯？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-004",
+    "disease": "猫脂肪肝",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "食欲废绝",
+        "体重急剧下降",
+        "黄疸"
+      ],
+      "secondary": [
+        "呕吐",
+        "精神萎靡",
+        "脱水",
+        "肝肿大"
+      ],
+      "detail": {
+        "食欲废绝": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重急剧下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "黄疸": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫脂肪肝（肝脂质沉积症）是猫最常见的肝病，通常由厌食（应激/疾病/换粮）超过3-7天触发。肥胖猫风险更高。脂肪动员过度导致肝细胞内甘油三酯大量堆积。血液生化+B超+肝脏细胞学可确诊。",
+    "home_care": "⚠️ 此为致命急症，需立即就医\n强制营养支持（鼻饲管或食道饲管）是治疗核心\n逐步恢复自主进食\n治疗原发病因",
+    "forbidden_care": [
+      {
+        "rule": "禁止等待猫自行恢复食欲（脂肪肝会持续恶化）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不经营养支持仅靠药物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止让肥胖猫快速节食",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "胆管肝炎",
+        "differentiator": "胆管肝炎常伴发热和腹痛，B超可见胆管扩张和胆囊壁增厚",
+        "key_questions": [
+          "猫有无长期厌食史？",
+          "有无黄疸？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-005",
+    "disease": "猫便秘/巨结肠",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "排便困难",
+        "粪便干硬",
+        "排便频率显著减少"
+      ],
+      "secondary": [
+        "食欲下降",
+        "呕吐",
+        "精神萎靡"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫便秘可因脱水、毛球、异物、骨盆狭窄、特发性巨结肠等引起。长期严重便秘可致巨结肠（结肠永久扩张失去蠕动能力）。X光可评估粪便积存+结肠扩张程度。",
+    "home_care": "增加饮水和纤维\n乳果糖/聚乙二醇软化粪便\n严重需灌肠（兽医操作）\n巨结肠需结肠次全切除术",
+    "forbidden_care": [
+      {
+        "rule": "禁止长期用刺激性泻药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理慢性便秘（可致巨结肠）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肠梗阻",
+        "differentiator": "梗阻呕吐更剧烈、完全不排便排气；巨结肠X光见结肠极度扩张",
+        "key_questions": [
+          "排便是否完全停止？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-006",
+    "disease": "猫胰腺炎",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "食欲下降",
+        "嗜睡",
+        "黄疸"
+      ],
+      "secondary": [
+        "呕吐",
+        "脱水",
+        "低体温"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫胰腺炎症状隐匿（不似犬的急性剧烈呕吐），常与肠炎和胆管肝炎并发（三联征）。fPLI检测+B超可辅助诊断。",
+    "home_care": "对症支持治疗（输液+营养支持）\n止吐+止痛\n逐步恢复饮食\n治疗并发疾病（肠炎/胆管炎）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不经营养支持（猫厌食→脂肪肝）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止仅凭临床症状排除（猫胰腺炎诊断难）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "脂肪肝",
+        "differentiator": "脂肪肝有长期厌食史+显著黄疸+B超肝回声增强",
+        "key_questions": [
+          "猫有无长期厌食史？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-007",
+    "disease": "猫结肠炎",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "腹泻（黏液/血丝）",
+        "里急后重",
+        "排便次数增多"
+      ],
+      "secondary": [
+        "体重下降",
+        "被毛粗糙"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫结肠炎是大肠黏膜炎症，病因包括寄生虫（鞭虫/球虫）、细菌感染、食物过敏、IBD、应激。结肠镜+活检可确诊。",
+    "home_care": "食物排除试验\n高纤维或低残留饮食（视情况）\n益生菌\n抗寄生虫治疗\n严重者激素/免疫抑制剂",
+    "forbidden_care": [
+      {
+        "rule": "禁止频繁换粮",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不排除寄生虫",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "小肠性腹泻",
+        "differentiator": "小肠性腹泻量大、频率正常；大肠性腹泻量少、频繁（里急后重）",
+        "key_questions": [
+          "腹泻量多少？有无黏液或血丝？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-008",
+    "disease": "猫胃淋巴瘤",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "慢性呕吐",
+        "体重显著下降",
+        "食欲减退"
+      ],
+      "secondary": [
+        "腹泻",
+        "嗜睡"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫胃肠道淋巴瘤是最常见猫肠道肿瘤，老年猫高发。分为低级别（小细胞性）和高级别（大细胞性）。肠道全层活检+免疫组化可确诊和分型。低级别淋巴瘤CHOP方案化疗效果好。",
+    "home_care": "化疗（CHOP或苯丁酸氮芥+泼尼松龙）\n营养支持\n定期复查",
+    "forbidden_care": [
+      {
+        "rule": "禁止不经活检就诊断（与IBD难以区分）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "IBD",
+        "differentiator": "IBD与低级别淋巴瘤内镜+活检有时难以区分（均小细胞浸润），需免疫组化和PCR克隆性分析",
+        "key_questions": [
+          "有无肠道活检+免疫组化结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-009",
+    "disease": "猫巨结肠",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "严重便秘",
+        "巨大坚硬粪块",
+        "食欲下降"
+      ],
+      "secondary": [
+        "呕吐",
+        "精神萎靡",
+        "体重下降"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫巨结肠是结肠永久性扩张+蠕动丧失。常见于慢性便秘未处理。X光见结肠极度扩张。内科治疗无效者需结肠次全切除术。",
+    "home_care": "严重者需结肠次全切除术\n术后软便为正常现象（结肠切除后水分吸收减少）\n终身高纤维/易消化饮食",
+    "forbidden_care": [
+      {
+        "rule": "禁止对内科治疗无效者不手术",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止术后不调整饮食",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "慢性便秘",
+        "differentiator": "慢性便秘结肠大小可逆（排便后可缩小），巨结肠为永久扩张",
+        "key_questions": [
+          "X光灌肠后结肠能否缩小？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dig-010",
+    "disease": "猫肝脂质沉积症(脂肪肝)严重型",
+    "species": [
+      "猫"
+    ],
+    "category": "消化系统",
+    "symptoms": {
+      "primary": [
+        "食欲废绝",
+        "严重黄疸",
+        "极度消瘦"
+      ],
+      "secondary": [
+        "呕吐",
+        "嗜睡",
+        "凝血功能障碍"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "见消化系统脂肪肝条目。此为严重型，需ICU级别治疗。强制营养支持（食道饲管/鼻饲管）至少4-6周。",
+    "home_care": "⚠️ ICU住院\n食道饲管放置（强制营养）\n保肝治疗（SAMe/水飞蓟/维生素K）\n止吐+胃黏膜保护\n逐步恢复自主进食",
+    "forbidden_care": [
+      {
+        "rule": "禁止不经饲管仅靠静脉营养",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止过早拔除饲管（需等自主进食稳定）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "胆管肝炎",
+        "differentiator": "胆管肝炎常伴发热和腹痛，B超见胆管扩张",
+        "key_questions": [
+          "B超有无胆管扩张？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

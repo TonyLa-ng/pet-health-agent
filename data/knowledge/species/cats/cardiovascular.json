@@ -1,0 +1,217 @@
+[
+  {
+    "id": "feline-cardio-001",
+    "disease": "肥厚型心肌病(HCM)",
+    "species": [
+      "猫"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "呼吸急促",
+        "运动不耐受",
+        "昏厥"
+      ],
+      "secondary": [
+        "后肢瘫痪（血栓栓塞）",
+        "心杂音",
+        "奔马律"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "HCM是猫最常见的心脏病，左心室壁增厚导致舒张功能下降。缅因猫/布偶猫有遗传倾向。心脏B超（左室壁>6mm）可确诊。可导致心衰、血栓栓塞、猝死。",
+    "home_care": "控制心率和改善舒张功能（β阻滞剂/钙通道阻滞剂）\n预防血栓（氯吡格雷）\n控制应激\n定期心脏B超复查",
+    "forbidden_care": [
+      {
+        "rule": "禁止不抗凝（高危血栓风险）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止输液过多过快（诱发心衰）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "限制型心肌病",
+        "differentiator": "RCM以心房显著扩大+左室壁不厚为特征，B超可区分",
+        "key_questions": [
+          "心脏B超结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-cardio-002",
+    "disease": "猫心力衰竭",
+    "species": [
+      "猫"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "呼吸困难",
+        "张口呼吸",
+        "坐姿呼吸"
+      ],
+      "secondary": [
+        "食欲下降",
+        "精神萎靡",
+        "后肢瘫痪（血栓）"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫心衰最常见于HCM终末期。表现为肺水肿或胸水。猫心衰症状隐匿（不爱动/躲藏），易被忽视。X光（肺水肿/胸水）+心脏B超可确诊。",
+    "home_care": "⚠️ 立即就医\n吸氧\n利尿剂（呋塞米）\n胸腔穿刺（如有胸水）\nACEI/β阻滞剂",
+    "forbidden_care": [
+      {
+        "rule": "禁止应激",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不控制液体入量",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫哮喘",
+        "differentiator": "哮喘无心脏扩大和心杂音，X光见支气管壁增厚而非肺水肿",
+        "key_questions": [
+          "有无心杂音？X光有无心脏扩大？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-cardio-003",
+    "disease": "猫心肌病(限制型)",
+    "species": [
+      "猫"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "呼吸急促",
+        "运动不耐受",
+        "嗜睡"
+      ],
+      "secondary": [
+        "血栓栓塞症状（后肢瘫痪）",
+        "腹水"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "限制型心肌病(RCM)是猫第二常见心肌病，心内膜纤维化导致心室充盈受限。双心房显著扩大。B超可诊断。",
+    "home_care": "控制心率和改善舒张功能\n预防血栓（氯吡格雷）\n利尿剂（控制心衰症状）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不抗凝（血栓风险）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "HCM",
+        "differentiator": "HCM左室壁增厚；RCM以心房扩大为主+左室壁厚度正常",
+        "key_questions": [
+          "B超结果：室壁厚度+心房大小？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-cardio-004",
+    "disease": "猫心丝虫病",
+    "species": [
+      "猫"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "咳嗽",
+        "呼吸急促",
+        "呕吐"
+      ],
+      "secondary": [
+        "嗜睡",
+        "体重下降",
+        "突然死亡"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫心丝虫较犬罕见但更致命。猫不是理想宿主，感染虫量少（1-2条），但可引起严重炎症反应（HARD——心丝虫相关呼吸病）。抗体+抗原检测+B超可诊断。无可用的杀成虫药。",
+    "home_care": "每月心丝虫预防药\n对症支持（激素减轻炎症）\n手术取虫（如有条件）",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用犬用杀心丝虫成虫药（对猫有毒）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫哮喘",
+        "differentiator": "哮喘无心丝虫抗体/抗原阳性，支气管灌洗见嗜酸性粒细胞",
+        "key_questions": [
+          "有无心丝虫检测？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

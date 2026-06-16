@@ -1,0 +1,245 @@
+[
+  {
+    "id": "feline-endo-001",
+    "disease": "猫甲状腺功能亢进",
+    "species": [
+      "猫"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "食欲增加但体重下降",
+        "多饮多尿",
+        "活动增加/焦躁"
+      ],
+      "secondary": [
+        "呕吐",
+        "腹泻",
+        "被毛粗糙",
+        "心率加快"
+      ],
+      "detail": {
+        "食欲增加但体重下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "多饮多尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "活动增加/焦躁": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "甲亢是老年猫最常见内分泌病，由良性甲状腺腺瘤过度分泌T4引起。TT4升高可确诊。治疗选择包括甲巯咪唑（口服/透皮）、放射性碘131、手术切除。",
+    "home_care": "按医嘱服用甲巯咪唑（需监测副作用）\n定期监测TT4+肾功能+血压\n高质量饮食\n控制心率",
+    "forbidden_care": [
+      {
+        "rule": "禁止突然停药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不监测肾功能（甲亢可能掩盖CKD）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "糖尿病",
+        "differentiator": "糖尿病食欲增加但血糖升高+尿糖阳性，甲亢TT4升高",
+        "key_questions": [
+          "猫有无多饮多尿？血糖是否升高？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-endo-002",
+    "disease": "猫糖尿病",
+    "species": [
+      "猫"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "多饮多尿",
+        "食欲增加或下降",
+        "体重下降"
+      ],
+      "secondary": [
+        "后肢跖行（神经病变）",
+        "反复尿路感染",
+        "白内障（较少见）"
+      ],
+      "detail": {
+        "多饮多尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲增加或下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫糖尿病多为2型（胰岛素抵抗+β细胞功能下降），肥胖是主要风险因素。血糖持续升高+果糖胺升高+尿糖阳性可确诊。部分猫通过饮食管理+体重控制可缓解。",
+    "home_care": "低碳水化合物高蛋白湿粮\n每日胰岛素注射（甘精胰岛素/地特胰岛素）\n定期血糖曲线监测\n控制体重\n部分猫可经饮食管理达到糖尿病缓解",
+    "forbidden_care": [
+      {
+        "rule": "禁止喂食干粮（碳水过高）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止随意改变胰岛素剂量",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "甲亢",
+        "differentiator": "甲亢猫活动增加、心率快，TT4升高；糖尿病以高血糖+尿糖为特征",
+        "key_questions": [
+          "猫有无做过甲状腺检查？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-endo-003",
+    "disease": "猫肢端肥大症",
+    "species": [
+      "猫"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "胰岛素抵抗性糖尿病",
+        "体重增加",
+        "面部/爪子增大"
+      ],
+      "secondary": [
+        "器官肿大",
+        "心脏杂音",
+        "下颌前突"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫肢端肥大症由垂体生长激素(GH)分泌过多引起，中年至老年猫多见。常表现为难以控制的糖尿病（胰岛素抵抗）。IGF-1升高+CT/MRI见垂体肿瘤可确诊。",
+    "home_care": "放射治疗或手术切除垂体肿瘤\n高剂量胰岛素控制血糖\n定期监测血糖+IGF-1",
+    "forbidden_care": [
+      {
+        "rule": "禁止放弃治疗（未控制的糖尿病可致酮症酸中毒）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "单纯糖尿病",
+        "differentiator": "单纯糖尿病胰岛素常规剂量可控制，肢端肥大需要异常高剂量",
+        "key_questions": [
+          "胰岛素需求量是否异常高？",
+          "有无面部/爪子变大？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-endo-004",
+    "disease": "猫醛固酮增多症(Conn综合征)",
+    "species": [
+      "猫"
+    ],
+    "category": "内分泌",
+    "symptoms": {
+      "primary": [
+        "低钾导致肌无力（颈下垂/跖行）",
+        "多饮多尿",
+        "高血压"
+      ],
+      "secondary": [
+        "失明（高血压性视网膜脱落）",
+        "心杂音"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫原发性醛固酮增多症由肾上腺皮质肿瘤分泌过量醛固酮引起。低钾血症+高血压+醛固酮升高可诊断。B超/CT可定位肾上腺肿瘤。手术切除可治愈。",
+    "home_care": "螺内酯（醛固酮拮抗剂）\n补钾\n控制血压\n手术切除肾上腺肿瘤",
+    "forbidden_care": [
+      {
+        "rule": "禁止不监测血钾和血压",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "慢性肾病",
+        "differentiator": "CKD多饮多尿但通常无严重低钾+高血压+颈下垂",
+        "key_questions": [
+          "血钾多少？有无高血压？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

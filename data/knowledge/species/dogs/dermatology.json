@@ -1,0 +1,563 @@
+[
+  {
+    "id": "canine-derm-001",
+    "disease": "特应性皮炎",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "剧烈瘙痒",
+        "皮肤红斑",
+        "脱毛"
+      ],
+      "secondary": [
+        "慢性耳炎",
+        "舔脚",
+        "皮肤增厚",
+        "色素沉着"
+      ],
+      "detail": {
+        "剧烈瘙痒": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "皮肤红斑": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "脱毛": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "low",
+    "diagnosis_basis": "特应性皮炎是遗传性过敏体质对环境过敏原（尘螨/花粉/霉菌）的过敏反应。多发于特定品种（金毛/拉布拉多/斗牛犬/西高地）。排除其他瘙痒原因后+皮内过敏试验可诊断。",
+    "home_care": "定期洗澡（兽医推荐抗过敏香波）\n环境控制（空气净化器/勤换洗窝垫）\nOmega-3脂肪酸补充\n避免已知过敏原",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用人用抗过敏药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止频繁洗澡（破坏皮肤屏障）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理继发感染（细菌/马拉色菌）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "食物过敏",
+        "differentiator": "食物过敏常伴消化道症状（腹泻/软便），对食物排除试验有反应",
+        "key_questions": [
+          "瘙痒是否伴有消化道症状？",
+          "瘙痒是否四季持续性（非季节性）？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物皮肤病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-derm-002",
+    "disease": "脓皮症",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "皮肤脓疱",
+        "红斑",
+        "瘙痒"
+      ],
+      "secondary": [
+        "脱毛",
+        "结痂",
+        "皮屑",
+        "异味"
+      ],
+      "detail": {
+        "皮肤脓疱": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "红斑": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "瘙痒": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "犬脓皮症是皮肤细菌感染（最常见为假中间型葡萄球菌），多为继发性（过敏/寄生虫/内分泌病基础上发生）。皮肤细胞学（压片染色镜检）可快速诊断。",
+    "home_care": "按处方完成全程抗生素（至少3-4周）\n抗菌香波定期洗澡\n查找并控制原发病（过敏/内分泌）\n保持皮肤干燥清洁",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行使用人用抗生素药膏",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止抗生素疗程不足自行停药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理原发病因",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "蠕形螨病",
+        "differentiator": "蠕形螨多见于幼犬或免疫低下犬，深部皮肤刮片可见大量蠕形螨",
+        "key_questions": [
+          "犬年龄多大？",
+          "有无做过皮肤刮片检查？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物皮肤病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-derm-003",
+    "disease": "蠕形螨病",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "脱毛（斑片状）",
+        "皮肤红斑",
+        "皮屑"
+      ],
+      "secondary": [
+        "瘙痒（继发感染时）",
+        "皮肤增厚",
+        "色素沉着"
+      ],
+      "detail": {
+        "脱毛（斑片状）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "皮肤红斑": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "皮屑": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "蠕形螨（Demodex canis）寄生于毛囊内，幼犬型与遗传免疫缺陷相关，成年型常伴发严重全身性疾病。深部皮肤刮片镜检可见大量虫体。",
+    "home_care": "按兽医处方使用伊维菌素/米尔贝肟/氟雷拉纳等\n定期药浴\n补充营养增强免疫力\n治疗期间定期皮肤刮片复查",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行停药（需连续两次阴性刮片）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用激素类药膏（可能加重）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不排查成年型蠕形螨的潜在病因",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "皮肤真菌病（癣菌）",
+        "differentiator": "癣菌呈圆形脱毛斑，边缘红肿，Wood灯+真菌培养可鉴别",
+        "key_questions": [
+          "脱毛区域是否呈圆形？",
+          "家中其他宠物或人是否有类似皮损？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物皮肤病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-derm-004",
+    "disease": "跳蚤过敏性皮炎",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "剧烈瘙痒",
+        "脱毛",
+        "红色丘疹"
+      ],
+      "secondary": [
+        "皮肤破损",
+        "继发细菌感染",
+        "腰荐部脱毛"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "跳蚤过敏性皮炎(FAD)是犬对跳蚤唾液过敏的一种超敏反应。即使少量跳蚤叮咬也可导致严重瘙痒。梳毛见跳蚤粪便（黑色碎屑遇水变红）可诊断。",
+    "home_care": "每月使用高效体外驱虫药（全年不间断）\n环境灭蚤（吸尘/杀虫剂/生长调节剂）\n控制继发感染\n抗组胺药/激素（遵医嘱，短期）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不定期驱虫",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止仅治疗不处理环境（跳蚤90%在环境中）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "疥螨病",
+        "differentiator": "疥螨瘙痒更剧烈，耳缘/肘部好发，皮肤刮片可见虫体",
+        "key_questions": [
+          "驱虫药是否覆盖跳蚤？",
+          "家中其他宠物或人有无瘙痒？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-derm-005",
+    "disease": "皮脂腺炎",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "被毛干枯无光泽",
+        "脱毛",
+        "皮屑（大量银白色）"
+      ],
+      "secondary": [
+        "毛囊角栓",
+        "皮肤增厚"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "皮脂腺炎是皮脂腺免疫介导性破坏导致的角化异常病。秋田犬、贵宾、萨摩耶等品种高发。皮肤活检可确诊。",
+    "home_care": "角化调节洗发水定期药浴\nOmega-3脂肪酸补充\n维A酸类药物（遵医嘱）\n环孢素（遵医嘱）",
+    "forbidden_care": [
+      {
+        "rule": "禁止频繁洗澡（加重皮脂流失）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用干燥性香波",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "原发性皮脂溢",
+        "differentiator": "皮脂溢可以为油性或干性，无免疫介导的皮脂腺破坏；活检可区分",
+        "key_questions": [
+          "皮肤是偏油性还是干性？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-derm-006",
+    "disease": "急性湿性皮炎（湿疹/hot spot）",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "局部急性红肿",
+        "渗出",
+        "剧痛"
+      ],
+      "secondary": [
+        "瘙痒",
+        "脱毛（边界清晰）"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "急性湿性皮炎是皮肤继发性细菌感染和自我损伤的恶性循环。常在过敏/外寄生虫/毛结/潮湿基础上发生。患处剧痛湿润。",
+    "home_care": "患处剃毛清洗\n外用抗生素+激素药膏\n戴伊丽莎白圈防舔舐\n查找并处理原发病因",
+    "forbidden_care": [
+      {
+        "rule": "禁止不处理原发病因（易复发）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止让犬舔舐患处",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "脓皮症",
+        "differentiator": "脓皮症为弥漫性脓疱和结痂，hot spot为局限性急性湿性皮损",
+        "key_questions": [
+          "皮损是局部还是全身？有无脓疱？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-derm-007",
+    "disease": "马拉色菌皮炎",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "瘙痒",
+        "皮肤油腻",
+        "红斑",
+        "异味"
+      ],
+      "secondary": [
+        "苔藓化",
+        "色素沉着",
+        "慢性耳炎"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "马拉色菌是皮肤正常菌群，过度增殖时致病。常在过敏/皮脂溢/潮湿基础上发生。皮肤细胞学可见特征性\"花生样\"酵母菌。",
+    "home_care": "抗真菌香波定期洗澡\n治疗原发过敏\n保持皮肤干燥\n严重者口服抗真菌药",
+    "forbidden_care": [
+      {
+        "rule": "禁止仅抗真菌不处理原发病",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不保持干燥",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "细菌性脓皮症",
+        "differentiator": "脓皮症以脓疱为主，细胞学见球菌；马拉色菌见酵母菌",
+        "key_questions": [
+          "皮肤细胞学检查结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-derm-008",
+    "disease": "皮肤真菌病",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "圆形脱毛斑",
+        "皮屑",
+        "红斑"
+      ],
+      "secondary": [
+        "瘙痒（轻中度）",
+        "甲沟炎"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "犬皮肤真菌病多为Microsporum canis/gypseum或Trichophyton感染。幼犬和免疫低下犬高发。Wood灯（部分菌株荧光）+真菌培养+毛发镜检可确诊。人畜共患。",
+    "home_care": "抗真菌药浴（咪康唑/恩康唑）\n口服抗真菌药（伊曲康唑/特比萘芬）\n环境彻底消毒\n治疗至连续2次培养阴性",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行停药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理环境",
+        "condition": "default"
+      },
+      {
+        "rule": "注意人感染风险",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "蠕形螨病",
+        "differentiator": "蠕形螨深部刮片见虫体；癣菌脱毛边界清晰呈圆形",
+        "key_questions": [
+          "脱毛斑是圆形吗？皮肤刮片结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-derm-009",
+    "disease": "锌反应性皮炎",
+    "species": [
+      "犬"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "口周/眼周/耳廓脱屑和结痂",
+        "皮肤增厚"
+      ],
+      "secondary": [
+        "脱毛",
+        "继发感染"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "锌反应性皮炎分为I型（饮食锌缺乏，多见于吃廉价粮的幼犬）和II型（遗传性锌吸收障碍，西伯利亚哈士奇/阿拉斯加雪橇犬高发）。补锌后症状改善可诊断。",
+    "home_care": "补充锌制剂（遵医嘱，过量有毒）\n改喂高质量犬粮\n皮肤局部护理",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行超量补锌（锌中毒）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不排查其他皮肤病就诊断",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "其他角化异常病",
+        "differentiator": "补锌诊断性治疗：锌反应性皮炎补锌2-4周后显著改善",
+        "key_questions": [
+          "犬品种？补锌后有无改善？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

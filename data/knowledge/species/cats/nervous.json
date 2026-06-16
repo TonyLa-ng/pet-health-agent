@@ -1,0 +1,215 @@
+[
+  {
+    "id": "feline-neuro-001",
+    "disease": "猫癫痫",
+    "species": [
+      "猫"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "抽搐",
+        "意识改变",
+        "异常行为"
+      ],
+      "secondary": [
+        "流涎",
+        "排尿失禁"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫癫痫较犬少见。可为特发性、继发性（脑肿瘤/脑炎/FIP/弓形虫/低血糖/肝性脑病）。MRI+脑脊液+代谢筛查需排查继发病因。",
+    "home_care": "发作时保持安静安全\n苯巴比妥/左乙拉西坦（遵医嘱）\n查找并治疗原发病因",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行用药（猫对某些抗癫痫药敏感）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "晕厥",
+        "differentiator": "晕厥无抽搐动作，心电图可鉴别心源性",
+        "key_questions": [
+          "有无心脏病史？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-neuro-002",
+    "disease": "猫血栓栓塞(ATE)",
+    "species": [
+      "猫"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "突发双后肢瘫痪",
+        "剧痛（嚎叫）",
+        "后肢冰冷"
+      ],
+      "secondary": [
+        "呼吸急促",
+        "心率失常"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫主动脉血栓栓塞(ATE)是血栓嵌顿于主动脉分叉处导致后肢急性缺血。最常见于肥厚型心肌病(HCM)猫（左心房血栓脱落）。后肢无脉搏+冰冷+发绀可诊断。",
+    "home_care": "⚠️ 此为致命急症，立即就医\n抗凝治疗（氯吡格雷/利伐沙班）\n止痛\n治疗潜在心脏病\n物理治疗（恢复期）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不治疗潜在心脏病",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不抗凝（复发率高）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "IVDD（椎间盘疾病）",
+        "differentiator": "IVDD后肢有痛觉和脉搏，ATE后肢无脉搏冰冷",
+        "key_questions": [
+          "后肢有无脉搏？",
+          "有无心脏病史？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-neuro-003",
+    "disease": "猫前庭综合征",
+    "species": [
+      "猫"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "头倾斜",
+        "眼球震颤",
+        "共济失调"
+      ],
+      "secondary": [
+        "呕吐（晕动症）",
+        "转圈",
+        "无法站立"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫前庭综合征分为外周性（中耳炎/耳息肉/特发性）和中枢性（脑干病变/FIP/肿瘤）。特发性前庭综合征常见于夏末秋初的户外幼猫。神经学检查可定位。",
+    "home_care": "支持治疗（防摔伤）\n查找原发病因（耳镜/B超/MRI）\n止晕药\n大多数特发性病例数周内自愈",
+    "forbidden_care": [
+      {
+        "rule": "禁止不做耳镜检查就放弃",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不排除中耳炎/息肉",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "脑干肿瘤",
+        "differentiator": "中枢性前庭伴其他脑神经异常+意识改变，MRI可确诊",
+        "key_questions": [
+          "有无其他神经症状？MRI结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-neuro-004",
+    "disease": "猫小脑发育不全",
+    "species": [
+      "猫"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "意向性震颤",
+        "共济失调",
+        "步态蹒跚"
+      ],
+      "secondary": [
+        "头部震颤"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "猫小脑发育不全是先天性疾病，母猫妊娠期感染猫瘟病毒(FPV)可导致幼猫小脑发育不全。症状非渐进性（不会恶化）。MRI见小脑体积缩小可确诊。猫生活质量通常可接受。",
+    "home_care": "室内饲养（防摔伤）\n食盆水盆固定（防打翻）\n不需要药物治疗\n生活质量管理",
+    "forbidden_care": [
+      {
+        "rule": "禁止安乐（症状不加重，猫可适应良好）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "溶酶体贮积症",
+        "differentiator": "贮积症症状为渐进性（逐渐加重），MRI+酶学检查可区分",
+        "key_questions": [
+          "症状是否渐进性加重？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

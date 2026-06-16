@@ -1,0 +1,219 @@
+[
+  {
+    "id": "canine-oph-001",
+    "disease": "干眼症(KCS)",
+    "species": [
+      "犬"
+    ],
+    "category": "眼科",
+    "symptoms": {
+      "primary": [
+        "黏液性眼分泌物",
+        "结膜充血",
+        "频繁眨眼"
+      ],
+      "secondary": [
+        "角膜混浊",
+        "视力下降",
+        "反复角膜溃疡"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "干眼症是泪液分泌不足导致的慢性角膜结膜炎。免疫介导性最常见，某些品种（可卡/西施/约克夏）高发。泪液量测试(STT)<15mm/min可确诊。需终身用药。",
+    "home_care": "人工泪液频繁点眼\n环孢素眼膏（遵医嘱）\n定期眼科复查\n保持眼部清洁",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行停药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用含激素眼药水（除非兽医处方）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "结膜炎",
+        "differentiator": "结膜炎泪液量正常(STT>15)，无角膜病变",
+        "key_questions": [
+          "有无做过泪液量测试？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-oph-002",
+    "disease": "白内障",
+    "species": [
+      "犬"
+    ],
+    "category": "眼科",
+    "symptoms": {
+      "primary": [
+        "晶状体混浊（白瞳）",
+        "视力下降"
+      ],
+      "secondary": [
+        "碰撞家具",
+        "步态改变"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "白内障是晶状体蛋白变性导致混浊。可为遗传性（贵宾/可卡/波士顿梗）、糖尿病性、老年性或外伤性。裂隙灯检查可确诊并分级。唯一有效治疗为超声乳化手术。",
+    "home_care": "定期眼科检查\n控制糖尿病（如有）\n抗氧化剂补充\n严重者考虑手术",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用宣称可\"溶解\"白内障的眼药水（无效）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "核硬化",
+        "differentiator": "核硬化是老年犬正常老化，晶状体呈淡蓝色但不影响视力",
+        "key_questions": [
+          "犬年龄多大？视力是否明显下降？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-oph-003",
+    "disease": "青光眼",
+    "species": [
+      "犬"
+    ],
+    "category": "眼科",
+    "symptoms": {
+      "primary": [
+        "眼压升高",
+        "眼球突出",
+        "角膜水肿（蓝眼）"
+      ],
+      "secondary": [
+        "瞳孔散大",
+        "视力丧失",
+        "疼痛（眯眼/流泪）"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "青光眼是眼压升高导致视神经损伤的致盲性急症。分为原发性和继发性。眼压计测量（>25mmHg为异常）。急性青光眼需在数小时内降眼压，否则永久失明。",
+    "home_care": "⚠️ 眼科急症，需在数小时内就医\n降眼压药物（遵医嘱）\n严重者需手术（激光/引流阀）",
+    "forbidden_care": [
+      {
+        "rule": "禁止延误治疗（数小时可致永久失明）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用阿托品（升眼压）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "葡萄膜炎",
+        "differentiator": "葡萄膜炎眼压降低（<10mmHg），瞳孔缩小；青光眼眼压升高",
+        "key_questions": [
+          "眼压多少？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-oph-004",
+    "disease": "结膜炎",
+    "species": [
+      "犬"
+    ],
+    "category": "眼科",
+    "symptoms": {
+      "primary": [
+        "结膜充血",
+        "眼分泌物增多",
+        "频繁眨眼"
+      ],
+      "secondary": [
+        "眼睑痉挛",
+        "第三眼睑突出"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "犬结膜炎病因多样：过敏、感染（细菌/病毒）、异物、干眼症、眼睑内翻等。需确定原发病因。",
+    "home_care": "保持眼部清洁\n按医嘱使用抗生素/抗过敏眼药水\n戴伊丽莎白圈防搔抓",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用人用眼药水",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不排查原发病因",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "干眼症",
+        "differentiator": "干眼症以黏性分泌物为主+STT<15；结膜炎泪液量正常",
+        "key_questions": [
+          "眼分泌物是水性还是黏性？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

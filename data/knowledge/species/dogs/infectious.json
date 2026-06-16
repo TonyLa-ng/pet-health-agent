@@ -1,0 +1,487 @@
+[
+  {
+    "id": "canine-inf-001",
+    "disease": "犬细小病毒感染",
+    "species": [
+      "犬"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "剧烈呕吐",
+        "血便（番茄酱样）",
+        "精神极度萎靡"
+      ],
+      "secondary": [
+        "食欲废绝",
+        "高热或低体温",
+        "脱水",
+        "白细胞显著下降"
+      ],
+      "detail": {
+        "剧烈呕吐": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "血便（番茄酱样）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "精神极度萎靡": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "犬细小病毒（CPV）是高度传染性病毒病，主要侵害肠道上皮和骨髓，未接种疫苗的幼犬高发。特征性番茄酱样腥臭血便+白细胞骤降。CPV快速试纸+PCR可确诊。",
+    "home_care": "⚠️ 此为致命急症，需立即住院治疗\n严格隔离病犬（病毒在环境中存活数月）\n彻底消毒环境（含氯消毒剂）\n未感染犬紧急接种疫苗",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行喂食喂水（需静脉输液）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止与其他犬接触",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用人用止吐药",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "犬冠状病毒感染",
+        "differentiator": "冠状病毒症状较轻，通常无血便或仅少量血丝，白细胞下降不明显",
+        "key_questions": [
+          "犬是否完成疫苗接种？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物传染病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-inf-002",
+    "disease": "犬瘟热",
+    "species": [
+      "犬"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "双相热（发热→退→再发热）",
+        "呼吸道症状",
+        "神经症状"
+      ],
+      "secondary": [
+        "眼鼻脓性分泌物",
+        "咳嗽",
+        "呕吐腹泻",
+        "角化过度（鼻垫/脚垫硬）",
+        "抽搐"
+      ],
+      "detail": {
+        "双相热（发热→退→再发热）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呼吸道症状": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "神经症状": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "犬瘟热病毒（CDV）是高度致死性病毒病，侵害呼吸、消化、神经系统。未接种疫苗的幼犬高发。PCR+抗体检测可确诊。存活犬常有后遗症（抽搐/舞蹈症/牙釉质发育不良）。",
+    "home_care": "⚠️ 需立即住院隔离治疗\n对症支持治疗（输液/抗生素防继发感染/抗抽搐）\n严格隔离\n彻底消毒环境",
+    "forbidden_care": [
+      {
+        "rule": "禁止与其他犬接触",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止放弃治疗（但需了解预后差）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "狂犬病",
+        "differentiator": "狂犬病以行为改变+恐水+流涎+攻击性为特征，国内报告后需依法上报",
+        "key_questions": [
+          "犬是否接种过狂犬疫苗？",
+          "有无被其他动物咬伤史？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物传染病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-inf-003",
+    "disease": "钩端螺旋体病",
+    "species": [
+      "犬"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "高热",
+        "呕吐",
+        "黄疸"
+      ],
+      "secondary": [
+        "少尿或无尿",
+        "出血倾向",
+        "肌肉疼痛",
+        "结膜炎"
+      ],
+      "detail": {
+        "高热": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呕吐": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "黄疸": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "钩端螺旋体是人畜共患病，经感染动物尿液污染的水源传播（鼠类为主要宿主）。引起急性肝肾衰竭+出血倾向。PCR+血清抗体检测可确诊。可传染给人。",
+    "home_care": "⚠️ 需立即住院治疗\n抗生素治疗（多西环素/氨苄西林）\n静脉输液+肝肾支持\n接触患犬尿液时戴手套\n人感染风险——如有发热需就医告知接触史",
+    "forbidden_care": [
+      {
+        "rule": "禁止接触患犬尿液（人畜共患）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止让患犬随地排尿",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "免疫介导性溶血性贫血",
+        "differentiator": "IMHA以贫血+黄疸为主，无明显肝肾指标升高及出血倾向",
+        "key_questions": [
+          "犬有无接触老鼠或污染水源？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物传染病学",
+      "人畜共患病防控指南"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-inf-004",
+    "disease": "犬冠状病毒感染",
+    "species": [
+      "犬"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "呕吐",
+        "腹泻（黄色至橙色）",
+        "食欲下降"
+      ],
+      "secondary": [
+        "精神萎靡",
+        "脱水"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "犬冠状病毒(CCoV)感染小肠绒毛上皮导致吸收不良性腹泻。症状较轻但合并细小病毒感染时加重。粪便PCR可确诊。",
+    "home_care": "对症支持治疗（补液/易消化食物）\n隔离病犬\n环境消毒",
+    "forbidden_care": [
+      {
+        "rule": "禁止与其他犬接触",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "细小病毒感染",
+        "differentiator": "细小以血便+白细胞骤降为特征；冠状多为黄色水样便",
+        "key_questions": [
+          "腹泻有无带血？血常规白细胞多少？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-inf-005",
+    "disease": "犬疱疹病毒感染",
+    "species": [
+      "犬"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "幼犬急性死亡",
+        "精神萎靡",
+        "不吃奶"
+      ],
+      "secondary": [
+        "腹泻",
+        "呼吸困难",
+        "尖叫"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "犬疱疹病毒(CHV)对新生幼犬（<3周龄）致命，因幼犬体温调节不成熟，病毒在低温下复制活跃。>3周龄犬通常无症状。PCR可确诊。",
+    "home_care": "保温（提高环境温度至35-38℃）\n抗病毒治疗\n支持治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止让新生幼犬受凉",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "新生幼犬细菌性败血症",
+        "differentiator": "细菌性败血症血培养阳性，抗生素治疗有效",
+        "key_questions": [
+          "幼犬多大日龄？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-inf-006",
+    "disease": "犬传染性肝炎",
+    "species": [
+      "犬"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "高热",
+        "精神萎靡",
+        "呕吐"
+      ],
+      "secondary": [
+        "腹痛",
+        "角膜水肿（蓝眼）",
+        "黄疸",
+        "出血倾向"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "犬传染性肝炎（ICH）由犬腺病毒1型(CAV-1)引起，侵害肝脏和血管内皮。疫苗接种可有效预防。PCR+血清学可确诊。",
+    "home_care": "⚠️ 需住院治疗\n对症支持（输液+护肝+抗出血）\n隔离病犬",
+    "forbidden_care": [
+      {
+        "rule": "禁止未接种疫苗",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止与其他犬接触",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "钩端螺旋体病",
+        "differentiator": "钩端以黄疸+肾衰竭为主，有鼠类/污水接触史",
+        "key_questions": [
+          "犬有无接触鼠类或污水？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-infect-007",
+    "disease": "莱姆病",
+    "species": [
+      "犬"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "跛行（游走性）",
+        "关节肿胀",
+        "发热"
+      ],
+      "secondary": [
+        "精神萎靡",
+        "食欲下降",
+        "淋巴结肿大"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "莱姆病由伯氏疏螺旋体经蜱虫叮咬传播。大部分感染犬无症状，少数出现跛行和多关节炎。C6抗体检测+SNAP 4Dx可诊断。",
+    "home_care": "多西环素治疗（4周）\n控制疼痛\n定期体外驱虫（防蜱）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不防蜱",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不完成全程抗生素",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "免疫介导性多关节炎",
+        "differentiator": "IMPA无蜱虫接触史、莱姆病抗体阴性、关节液无菌性炎症",
+        "key_questions": [
+          "有无蜱虫叮咬史？莱姆病抗体检测？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-infect-008",
+    "disease": "破伤风",
+    "species": [
+      "犬"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "全身肌肉僵硬（第三眼睑脱出）",
+        "步态僵硬",
+        "痉笑面容"
+      ],
+      "secondary": [
+        "呼吸困难",
+        "吞咽困难",
+        "对声音/触摸高度敏感"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "破伤风由破伤风梭菌经深部伤口感染产生神经毒素。犬对破伤风毒素相对抵抗。特征性表现：第三眼睑脱出+全身僵硬+痉笑（嘴唇后拉）。临床诊断为主。",
+    "home_care": "⚠️ 需住院治疗\n伤口清创\n抗毒素+抗生素（甲硝唑）\n肌肉松弛剂\n暗室安静环境护理",
+    "forbidden_care": [
+      {
+        "rule": "禁止强光/噪音刺激（触发肌肉痉挛）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "士的宁中毒",
+        "differentiator": "士的宁中毒有接触史、突发全身抽搐后松弛；破伤风为持续性僵硬",
+        "key_questions": [
+          "有无深部伤口？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

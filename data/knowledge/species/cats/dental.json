@@ -1,0 +1,114 @@
+[
+  {
+    "id": "feline-dent-001",
+    "disease": "猫慢性口炎",
+    "species": [
+      "猫"
+    ],
+    "category": "口腔",
+    "symptoms": {
+      "primary": [
+        "口腔剧痛",
+        "流涎",
+        "口臭",
+        "食欲减退"
+      ],
+      "secondary": [
+        "体重下降",
+        "被毛粗糙（无法理毛）",
+        "牙龈/口腔黏膜红肿溃烂"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫慢性口炎（淋巴细胞浆细胞性口炎）是猫常见的免疫介导性口腔疾病。病因复杂：FIV/FeLV/杯状病毒/牙菌斑过敏。典型表现为尾口炎（口腔后部红肿增生）。全口拔牙是主要治疗方案。",
+    "home_care": "全口拔牙或臼齿拔除（70-80%猫显著改善）\n术后仍可能需要免疫抑制治疗\n口腔清洁\n疼痛管理",
+    "forbidden_care": [
+      {
+        "rule": "禁止不治疗（猫因剧痛停止进食→脂肪肝→死亡）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止仅用抗生素不拔牙",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "口腔鳞状细胞癌",
+        "differentiator": "SCC为局部肿块/溃疡，活检确诊，预后差；口炎为弥漫性炎症",
+        "key_questions": [
+          "有无做过口腔活检？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-dent-002",
+    "disease": "猫牙吸收",
+    "species": [
+      "猫"
+    ],
+    "category": "口腔",
+    "symptoms": {
+      "primary": [
+        "牙齿缺损",
+        "口腔疼痛",
+        "食欲改变"
+      ],
+      "secondary": [
+        "流涎",
+        "口臭"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫牙吸收（FORL）是猫特有疾病，破牙细胞破坏牙体组织（牙冠和/或牙根）。发病率随年龄增长，>5岁猫中>50%。口腔X光是诊断金标准。",
+    "home_care": "患齿拔除（唯一有效治疗）\n定期口腔X光检查\n术后止痛",
+    "forbidden_care": [
+      {
+        "rule": "禁止保留患齿（病变不可逆且持续疼痛）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不做口腔X光仅凭肉眼判断",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "牙周病",
+        "differentiator": "牙周病为牙周组织炎症，牙冠完整；牙吸收有特征性牙体缺损",
+        "key_questions": [
+          "口腔X光有无特征性骨吸收影像？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

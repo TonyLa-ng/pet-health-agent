@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "global_signals": [
+    {
+      "keyword": "抽搐",
+      "base_score": 40,
+      "boost_keywords": ["持续", "不停", "一直", "频繁", "反复"],
+      "boost_score": 30,
+      "combination_boost": ["口吐白沫", "意识丧失", "无法站立", "站不起来", "倒地", "四肢僵直"],
+      "combination_score": 25,
+      "duration_effect": "negative",
+      "species_override": {}
+    },
+    {
+      "keyword": "呼吸困难",
+      "base_score": 50,
+      "boost_keywords": ["张口呼吸", "腹式呼吸", "喘不过气", "喘气", "急促"],
+      "boost_score": 30,
+      "combination_boost": ["舌头发紫", "牙龈发绀", "发紫", "黏膜苍白", "倒地不起"],
+      "combination_score": 25,
+      "duration_effect": "negative",
+      "species_override": {}
+    },
+    {
+      "keyword": "中毒",
+      "base_score": 55,
+      "boost_keywords": ["吃了", "误食", "误吃", "咬过", "舔过"],
+      "boost_score": 30,
+      "combination_boost": ["呕吐", "抽搐", "流口水", "口吐白沫", "意识不清"],
+      "combination_score": 25,
+      "duration_effect": "negative",
+      "species_override": {}
+    },
+    {
+      "keyword": "异物",
+      "base_score": 45,
+      "boost_keywords": ["误食", "吞下", "吃了", "咽下", "吞入"],
+      "boost_score": 25,
+      "combination_boost": ["呕吐", "干呕", "不吃东西", "便秘", "腹痛"],
+      "combination_score": 20,
+      "duration_effect": "negative",
+      "species_override": {}
+    },
+    {
+      "keyword": "大出血",
+      "base_score": 55,
+      "boost_keywords": ["大量", "不止", "一直流", "止不住"],
+      "boost_score": 30,
+      "combination_boost": ["虚弱", "牙龈苍白", "意识模糊", "倒地"],
+      "combination_score": 25,
+      "duration_effect": "negative",
+      "species_override": {}
+    },
+    {
+      "keyword": "车祸",
+      "base_score": 60,
+      "boost_keywords": ["被车", "撞", "碾压"],
+      "boost_score": 30,
+      "combination_boost": ["骨折", "出血", "无法站立", "呼吸急促"],
+      "combination_score": 25,
+      "duration_effect": "negative",
+      "species_override": {}
+    },
+    {
+      "keyword": "高空坠落",
+      "base_score": 55,
+      "boost_keywords": ["摔下来", "跳楼", "掉下来", "高处掉下"],
+      "boost_score": 30,
+      "combination_boost": ["骨折", "出血", "昏迷", "无法站立"],
+      "combination_score": 25,
+      "duration_effect": "negative",
+      "species_override": {}
+    },
+    {
+      "keyword": "尿闭",
+      "base_score": 55,
+      "boost_keywords": ["尿不出", "没尿", "无法排尿", "不排尿", "排不出尿", "尿不出来"],
+      "boost_score": 25,
+      "combination_boost": ["频繁蹲", "乱尿", "惨叫", "嚎叫", "腹部胀", "精神差"],
+      "combination_score": 20,
+      "duration_effect": "negative",
+      "species_override": {
+        "猫": {
+          "keyword": "尿闭",
+          "base_score": 60,
+          "boost_keywords": ["频繁进猫砂盆", "蹲猫砂盆", "乱尿", "到处尿"],
+          "boost_score": 30
+        }
+      }
+    },
+    {
+      "keyword": "持续呕吐",
+      "base_score": 35,
+      "boost_keywords": ["一直吐", "不停吐", "反复吐", "连续吐", "吐了好几次", "呕吐不止"],
+      "boost_score": 25,
+      "combination_boost": ["吐血", "精神差", "不吃", "脱水", "虚弱"],
+      "combination_score": 20,
+      "duration_effect": "positive",
+      "species_override": {}
+    },
+    {
+      "keyword": "持续腹泻",
+      "base_score": 30,
+      "boost_keywords": ["一直拉", "水样便", "血便", "拉血", "脱水"],
+      "boost_score": 20,
+      "combination_boost": ["精神差", "不吃", "呕吐", "发烧"],
+      "combination_score": 15,
+      "duration_effect": "positive",
+      "species_override": {}
+    },
+    {
+      "keyword": "高热",
+      "base_score": 35,
+      "boost_keywords": ["40度", "高烧", "烫", "持续发热"],
+      "boost_score": 25,
+      "combination_boost": ["精神萎靡", "抽搐", "不吃不喝"],
+      "combination_score": 20,
+      "duration_effect": "positive",
+      "species_override": {}
+    },
+    {
+      "keyword": "不排便",
+      "base_score": 30,
+      "boost_keywords": ["几天没拉", "好几天没排便", "拉不出"],
+      "boost_score": 20,
+      "combination_boost": ["腹胀", "呕吐", "不吃", "精神差"],
+      "combination_score": 15,
+      "duration_effect": "positive",
+      "species_override": {
+        "兔": {
+          "keyword": "不排便",
+          "base_score": 80,
+          "boost_keywords": ["不吃", "不喝", "腹胀", "精神差"],
+          "boost_score": 15
+        }
+      }
+    },
+    {
+      "keyword": "被咬伤",
+      "base_score": 40,
+      "boost_keywords": ["被狗咬", "被猫咬", "打架", "咬伤", "伤口"],
+      "boost_score": 25,
+      "combination_boost": ["出血", "伤口大", "精神差", "感染"],
+      "combination_score": 20,
+      "duration_effect": "neutral",
+      "species_override": {}
+    },
+    {
+      "keyword": "晕倒",
+      "base_score": 50,
+      "boost_keywords": ["突然倒下", "意识丧失", "叫不醒", "没反应"],
+      "boost_score": 35,
+      "combination_boost": ["抽搐", "四肢僵直", "口吐白沫"],
+      "combination_score": 25,
+      "duration_effect": "negative",
+      "species_override": {}
+    },
+    {
+      "keyword": "难产",
+      "base_score": 55,
+      "boost_keywords": ["生不出来", "卡住", "羊水破了很久", "生产困难"],
+      "boost_score": 30,
+      "combination_boost": ["虚弱", "出血", "超过2小时"],
+      "combination_score": 25,
+      "duration_effect": "negative",
+      "species_override": {}
+    }
+  ],
+  "duration_scoring": {
+    "negative": {
+      "less_than_1h": 60,
+      "1h_to_6h": 40,
+      "6h_to_24h": 20,
+      "more_than_24h": 0,
+      "unknown": 30,
+      "conflict": 0
+    },
+    "positive": {
+      "less_than_1h": 0,
+      "1h_to_6h": 20,
+      "6h_to_24h": 40,
+      "more_than_24h": 60,
+      "unknown": 20,
+      "conflict": 0
+    },
+    "neutral": {
+      "less_than_1h": 30,
+      "1h_to_6h": 30,
+      "6h_to_24h": 30,
+      "more_than_24h": 30,
+      "unknown": 30,
+      "conflict": 0
+    }
+  },
+  "severity_indicators": [
+    { "signal": "无法站立", "score": 30 },
+    { "signal": "站不起来", "score": 30 },
+    { "signal": "意识丧失", "score": 35 },
+    { "signal": "大量出血", "score": 40 },
+    { "signal": "一直在流血", "score": 40 },
+    { "signal": "体温超过40℃", "score": 35 },
+    { "signal": "牙龈苍白", "score": 25 },
+    { "signal": "呼吸急促", "score": 20 },
+    { "signal": "腹部胀大坚硬", "score": 25 }
+  ],
+  "risk_levels": {
+    "critical": { "min_score": 80, "action": "immediate_block" },
+    "urgent": {
+      "min_score": 60,
+      "action": "allow_one_followup",
+      "followup_timeout_minutes": 10,
+      "auto_escalate_on_timeout": true
+    },
+    "watch": { "min_score": 40, "action": "continue_with_warning" },
+    "normal": { "min_score": 0, "action": "continue" }
+  },
+  "low_risk_reminder": {
+    "enabled": true,
+    "condition": "single_keyword_no_combo_no_duration_no_severity",
+    "message": "请确认以上描述是否属实，避免误判影响诊断结果"
+  }
+}

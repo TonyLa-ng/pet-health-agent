@@ -1,0 +1,406 @@
+[
+  {
+    "id": "canine-tox-001",
+    "disease": "巧克力中毒",
+    "species": [
+      "犬"
+    ],
+    "category": "中毒",
+    "symptoms": {
+      "primary": [
+        "呕吐",
+        "腹泻",
+        "兴奋/焦躁"
+      ],
+      "secondary": [
+        "心率加快",
+        "肌肉震颤",
+        "抽搐",
+        "心律失常"
+      ],
+      "detail": {
+        "呕吐": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "腹泻": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "兴奋/焦躁": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "巧克力中的可可碱和咖啡因对犬有毒。黑巧克力/可可粉毒性最强，白巧克力毒性最低。中毒剂量因体重和巧克力类型而异。详细计算摄入可可碱量+临床症状可诊断。",
+    "home_care": "⚠️ 立即就医（2小时内可催吐）\n记录巧克力类型、数量、摄入时间\n活性炭吸附（兽医操作）\n静脉输液加速排泄\n控制抽搐",
+    "forbidden_care": [
+      {
+        "rule": "禁止等待观察",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行催吐（过晚或误吸风险）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止给犬任何巧克力类食物",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "其他兴奋性中毒（安非他命/咖啡因）",
+        "differentiator": "依靠主人提供的摄入史区分",
+        "key_questions": [
+          "犬吃了什么类型巧克力？吃了多少？多久前吃的？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物毒理学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-tox-002",
+    "disease": "洋葱/大蒜中毒",
+    "species": [
+      "犬"
+    ],
+    "category": "中毒",
+    "symptoms": {
+      "primary": [
+        "溶血性贫血",
+        "牙龈苍白",
+        "虚弱"
+      ],
+      "secondary": [
+        "血红蛋白尿（酱油色尿）",
+        "呕吐",
+        "腹泻",
+        "呼吸急促"
+      ],
+      "detail": {
+        "溶血性贫血": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "牙龈苍白": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "虚弱": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "洋葱和大蒜中的硫代硫酸盐可导致犬氧化性溶血性贫血（海因茨小体溶血）。中毒剂量：洋葱>15-30g/kg，大蒜>5g/kg。熟洋葱/大蒜同样有毒。血涂片（海因茨小体）+血常规可确诊。",
+    "home_care": "⚠️ 立即就医\n停止接触洋葱/大蒜\n严重贫血需输血\n抗氧化剂治疗（维生素E/C）\n静脉输液",
+    "forbidden_care": [
+      {
+        "rule": "禁止喂食任何含洋葱/大蒜的食物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止给犬吃人类剩菜",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "免疫介导性溶血性贫血",
+        "differentiator": "IMHA无洋葱/大蒜接触史，库姆斯试验阳性",
+        "key_questions": [
+          "犬有无吃洋葱/大蒜或含这些成分的人类食物？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物毒理学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-tox-003",
+    "disease": "葡萄/葡萄干中毒",
+    "species": [
+      "犬"
+    ],
+    "category": "中毒",
+    "symptoms": {
+      "primary": [
+        "呕吐",
+        "腹泻",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "食欲下降",
+        "腹痛",
+        "少尿或无尿（急性肾衰竭）"
+      ],
+      "detail": {
+        "呕吐": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "腹泻": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "精神萎靡": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "葡萄和葡萄干可导致犬急性肾衰竭，毒素机制不明但毒性已被证实。中毒剂量差异大（2.8-36.4g/kg）。摄入后24-72小时出现肾衰竭症状。血液生化（BUN/Crea急剧升高）可确诊。",
+    "home_care": "⚠️ 立即就医（摄入2小时内催吐）\n活性炭吸附\n静脉输液利尿（保护肾脏）\n监测肾功能72小时",
+    "forbidden_care": [
+      {
+        "rule": "禁止给犬喂任何葡萄/葡萄干",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止等待症状出现再就医（肾损伤不可逆）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "其他原因急性肾衰竭",
+        "differentiator": "依靠摄入史区分；葡萄中毒无特定解毒剂，治疗为支持性",
+        "key_questions": [
+          "犬是否吃了葡萄或葡萄干？吃了多少？多久前？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物毒理学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-tox-004",
+    "disease": "木糖醇中毒",
+    "species": [
+      "犬"
+    ],
+    "category": "中毒",
+    "symptoms": {
+      "primary": [
+        "呕吐",
+        "嗜睡",
+        "共济失调"
+      ],
+      "secondary": [
+        "抽搐",
+        "低血糖",
+        "急性肝衰竭"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "木糖醇（口香糖/无糖糖果/牙膏/花生酱中常见）刺激犬胰岛素大量释放→严重低血糖→肝坏死。0.1g/kg可致低血糖，>0.5g/kg可致肝衰竭。血糖检测+肝功能检查可诊断。",
+    "home_care": "⚠️ 立即就医\n监测血糖（可能需要葡萄糖静脉输注）\n保肝治疗\n监测凝血功能",
+    "forbidden_care": [
+      {
+        "rule": "禁止给犬任何含木糖醇的产品",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止喂食人类口香糖/无糖食品",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "其他原因低血糖",
+        "differentiator": "依靠摄入史区分",
+        "key_questions": [
+          "犬有无吃口香糖或无糖食品？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-tox-005",
+    "disease": "防冻液（乙二醇）中毒",
+    "species": [
+      "犬"
+    ],
+    "category": "中毒",
+    "symptoms": {
+      "primary": [
+        "共济失调（类似醉酒）",
+        "呕吐",
+        "嗜睡"
+      ],
+      "secondary": [
+        "多饮多尿（早期）",
+        "少尿无尿（晚期）",
+        "口腔溃疡",
+        "抽搐"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "防冻液中乙二醇对犬剧毒，甜味吸引犬舔食。乙二醇代谢产物（草酸钙结晶）导致急性肾衰竭。Wood灯检查尿液荧光+血液乙二醇检测+肾功可诊断。4小时内使用甲吡唑或乙醇治疗可挽救。",
+    "home_care": "⚠️ 此为致命急症，4小时内治疗效果最佳\n立即就医\n甲吡唑（4-MP）或乙醇竞争性抑制（兽医操作）\n静脉输液\n血液透析",
+    "forbidden_care": [
+      {
+        "rule": "禁止等待观察（错过4小时黄金窗口，预后极差）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止存放防冻液在犬能接触到的地方",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "急性肾衰竭（其他原因）",
+        "differentiator": "依靠摄入史+尿液草酸钙结晶+Wood灯检查区分",
+        "key_questions": [
+          "犬有无可能接触防冻液？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-tox-006",
+    "disease": "抗凝血灭鼠药中毒",
+    "species": [
+      "犬"
+    ],
+    "category": "中毒",
+    "symptoms": {
+      "primary": [
+        "明确误食老鼠药/鼠药",
+        "精神萎靡或虚弱",
+        "出血倾向"
+      ],
+      "secondary": [
+        "牙龈苍白",
+        "呼吸困难或咳血",
+        "黑便/血便/血尿",
+        "皮下瘀斑或血肿",
+        "站不稳或休克"
+      ],
+      "detail": {
+        "明确误食老鼠药/鼠药": {
+          "trigger": "摄入史是最关键线索"
+        },
+        "出血倾向": {
+          "content": "鼻出血、牙龈出血、黑便、血尿、皮下瘀斑、胸腹腔出血均需警惕"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "抗凝血灭鼠药通过抑制维生素K循环导致凝血因子不足，临床可表现为虚弱、牙龈苍白、呼吸困难、咳血、黑便/血便、血尿、皮下瘀斑或休克。诊断重点为明确摄入史、凝血功能PT/aPTT延长，治疗通常需兽医进行去污、维生素K1和必要时输血/血浆支持。",
+    "home_care": "⚠️ 立即就医，携带老鼠药包装或照片\n记录摄入时间、估计剂量和成分\n保持安静，减少运动和碰撞\n按兽医要求复查凝血功能",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行催吐或灌药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止等待出血症状出现后再就医",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行使用维生素K或止血药替代急诊处理",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "维生素K1、活性炭、输血/血浆等需由兽医根据摄入时间和凝血检查决定"
+    ],
+    "vet_threshold": "任何明确或疑似误食老鼠药/鼠药均建议立即急诊；若出现牙龈苍白、呼吸困难、咳血、黑便、血尿、皮下瘀斑、虚弱或站不稳，应立即送医。",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "免疫介导性溶血性贫血/血小板减少",
+        "differentiator": "无明确鼠药摄入史，需血常规、凝血功能和免疫相关检查鉴别",
+        "key_questions": [
+          "是否明确看到或怀疑吃过老鼠药？有没有包装或成分照片？"
+        ]
+      },
+      {
+        "disease": "外伤性内出血",
+        "differentiator": "通常有车祸、摔落或撞击史，凝血功能不一定呈抗凝血灭鼠药模式",
+        "key_questions": [
+          "近期是否车祸、摔落、打架或明显撞击？"
+        ]
+      }
+    ],
+    "references": [
+      "Merck Veterinary Manual: Anticoagulant Rodenticide Poisoning in Animals",
+      "VCA Animal Hospitals: Anticoagulant Rodenticide Poisoning in Dogs",
+      "Cornell University College of Veterinary Medicine: Vitamin K Therapy"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-16",
+    "updated_at": "2026-06-16",
+    "reviewed_by": null
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "canine-msk-001",
+    "disease": "髋关节发育不良",
+    "species": [
+      "犬"
+    ],
+    "category": "骨骼肌肉",
+    "symptoms": {
+      "primary": [
+        "后肢跛行",
+        "起立困难",
+        "运动不耐受"
+      ],
+      "secondary": [
+        "肌肉萎缩（后肢）",
+        "关节弹响",
+        "兔子跳步态"
+      ],
+      "detail": {
+        "后肢跛行": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "起立困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "运动不耐受": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "髋关节发育不良是股骨头与髋臼吻合不良导致的退行性关节病，大型犬（金毛/德牧/拉布拉多）高发。遗传+环境因素共同作用。X光（PennHIP或OFA标准）可确诊。",
+    "home_care": "控制体重\n适度低冲击运动（游泳/散步）\n关节营养补充（葡萄糖胺/软骨素/Omega-3）\n物理治疗\n严重者考虑髋关节置换术",
+    "forbidden_care": [
+      {
+        "rule": "禁止过度运动（跑跳/爬楼梯）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止肥胖",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用人用止痛药",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "前十字韧带断裂",
+        "differentiator": "十字韧带断裂为急性跛行，关节不稳定+抽屉征阳性",
+        "key_questions": [
+          "跛行是急性发作还是慢性渐进？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物骨科学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-msk-002",
+    "disease": "前十字韧带断裂",
+    "species": [
+      "犬"
+    ],
+    "category": "骨骼肌肉",
+    "symptoms": {
+      "primary": [
+        "急性后肢跛行",
+        "不敢着地",
+        "关节肿胀"
+      ],
+      "secondary": [
+        "关节弹响",
+        "肌肉萎缩（慢性）"
+      ],
+      "detail": {
+        "急性后肢跛行": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "不敢着地": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "关节肿胀": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "前十字韧带（CrCL）断裂是犬最常见膝关节损伤，肥胖中型犬高发。可部分或完全断裂。抽屉征（胫骨前移）+胫骨加压试验+X光可确诊。通常需手术治疗（TPLO/TTA/关节囊外固定）。",
+    "home_care": "严格限制运动\n术后按兽医指导逐步康复\n控制体重\n关节营养补充\n物理治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止不治疗（将发展为严重关节炎）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止术后过早运动",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止肥胖",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "髌骨脱位",
+        "differentiator": "髌骨脱位以间歇性跛行+跳跃步态为特征，小型犬更常见",
+        "key_questions": [
+          "犬是否为小型犬？",
+          "跛行是否间歇性发作？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物骨科学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-msk-003",
+    "disease": "髌骨脱位",
+    "species": [
+      "犬"
+    ],
+    "category": "骨骼肌肉",
+    "symptoms": {
+      "primary": [
+        "间歇性跛行",
+        "跳跃步态（兔子跳）",
+        "后肢抬起"
+      ],
+      "secondary": [
+        "关节弹响",
+        "肌肉萎缩"
+      ],
+      "detail": {
+        "间歇性跛行": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "跳跃步态（兔子跳）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "后肢抬起": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "髌骨脱位是髌骨从滑车沟脱出，小型犬（贵宾/吉娃娃/博美/约克夏）高发。多为内侧脱位（MPL）。触诊+X光可确诊并分级（I-IV级）。",
+    "home_care": "控制体重\n关节营养补充\n避免跳跃\nIII-IV级需手术治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止让犬用后腿直立",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止肥胖",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止过度跳跃（沙发/楼梯）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "前十字韧带断裂",
+        "differentiator": "十字韧带断裂关节不稳明显，抽屉征阳性；髌骨脱位可触到脱出的髌骨",
+        "key_questions": [
+          "触诊膝关节时髌骨是否可被推出？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物骨科学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-msk-004",
+    "disease": "肘关节发育不良",
+    "species": [
+      "犬"
+    ],
+    "category": "骨骼肌肉",
+    "symptoms": {
+      "primary": [
+        "前肢跛行",
+        "运动后加重",
+        "不愿运动"
+      ],
+      "secondary": [
+        "关节肿胀",
+        "肌肉萎缩"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "肘关节发育不良是肘关节吻合不良导致的继发性骨关节炎，大型犬（德牧/金毛/拉布拉多/罗威纳）高发。X光+CT可确诊。",
+    "home_care": "控制体重\n适度运动\n关节营养补充\n严重者考虑关节置换",
+    "forbidden_care": [
+      {
+        "rule": "禁止过度运动",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止肥胖",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "全骨炎",
+        "differentiator": "全骨炎为幼犬（5-18月龄）自限性骨痛，X光见骨髓腔密度增高",
+        "key_questions": [
+          "犬年龄多大？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-msk-005",
+    "disease": "关节炎（骨关节炎）",
+    "species": [
+      "犬"
+    ],
+    "category": "骨骼肌肉",
+    "symptoms": {
+      "primary": [
+        "慢性跛行",
+        "起立困难",
+        "运动后僵硬"
+      ],
+      "secondary": [
+        "关节肿胀",
+        "肌肉萎缩",
+        "行为改变（不愿玩耍）"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "骨关节炎是关节软骨退行性变+继发性炎症，老年犬常见。可为原发性（老化）或继发性（髋肘发育不良/十字韧带断裂后）。X光可见关节间隙变窄+骨赘。",
+    "home_care": "控制体重（最重要）\n适度低冲击运动（游泳）\n关节营养品（葡萄糖胺/软骨素）\nNSAIDs止痛（遵医嘱，监测肝肾）\n物理治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用人用止痛药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不控制体重",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "骨肿瘤",
+        "differentiator": "骨肿瘤疼痛剧烈、持续加重、X光见溶骨/成骨性病变",
+        "key_questions": [
+          "疼痛是否持续加重，休息也不缓解？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-msk-006",
+    "disease": "骨肉瘤",
+    "species": [
+      "犬"
+    ],
+    "category": "骨骼肌肉",
+    "symptoms": {
+      "primary": [
+        "持续性跛行",
+        "肢体肿胀",
+        "剧痛"
+      ],
+      "secondary": [
+        "食欲下降",
+        "体重下降"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "骨肉瘤是犬最常见原发性恶性骨肿瘤，大型犬（大丹/罗威纳/金毛）高发。好发于长骨干骺端（桡骨远端/肱骨近端）。X光+活检可确诊。早期截肢+化疗可延长生存期。",
+    "home_care": "尽早就医确诊\n截肢+化疗（主要治疗）\n疼痛管理\n姑息放疗（不适合手术者）",
+    "forbidden_care": [
+      {
+        "rule": "禁止拖延（转移率高，早期手术预后较好）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止仅止痛不治疗原发病",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "骨髓炎（真菌性）",
+        "differentiator": "骨髓炎X光见骨膜反应而非溶骨，真菌培养阳性",
+        "key_questions": [
+          "犬有无去过真菌疫区（美国西南部）？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

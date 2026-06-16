@@ -1,0 +1,333 @@
+[
+  {
+    "id": "canine-neuro-001",
+    "disease": "癫痫",
+    "species": [
+      "犬"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "抽搐",
+        "意识丧失",
+        "四肢划动"
+      ],
+      "secondary": [
+        "流涎",
+        "排尿失禁",
+        "发作后定向力障碍"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "犬癫痫可为特发性（遗传，1-5岁首次发作）或继发性（脑肿瘤/脑炎/代谢病/中毒）。发作频率>1次/月或集群发作需抗癫痫治疗。排除其他病因后诊断。",
+    "home_care": "发作时保持环境安静安全\n记录发作时间和持续时间\n苯巴比妥/溴化钾（遵医嘱，需监测血药浓度）\n定期复查血常规+肝功能",
+    "forbidden_care": [
+      {
+        "rule": "禁止发作时将手放入犬口中",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行停药（可诱发严重癫痫持续状态）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不监测血药浓度",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "晕厥",
+        "differentiator": "晕厥无典型的强直-阵挛动作，恢复较快；心电图可鉴别心源性晕厥",
+        "key_questions": [
+          "发作前有无诱因？发作后恢复速度？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-neuro-002",
+    "disease": "椎间盘疾病(IVDD)",
+    "species": [
+      "犬"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "背部疼痛",
+        "后肢无力",
+        "不愿走动"
+      ],
+      "secondary": [
+        "后肢瘫痪",
+        "排尿失禁",
+        "深部痛觉丧失"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "IVDD是椎间盘突出压迫脊髓导致神经功能障碍。软骨营养障碍品种（腊肠犬/柯基/法斗/京巴）高发。Hansen I型（急性髓核突出）和II型（慢性纤维环突出）。MRI/CT+神经学检查可定位和分级。",
+    "home_care": "⚠️ 需立即就医（尤其是瘫痪）\n严格笼养限制活动4-6周\n止痛+抗炎（遵医嘱）\n严重者需手术减压（24小时内最佳）\n物理治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止不限制活动（会加重压迫）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止对瘫痪犬延误手术（超过24-48小时预后差）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "退行性脊髓病",
+        "differentiator": "DM多见于老年大型犬（德牧），慢性渐进性，无疼痛，MRI无椎间盘突出",
+        "key_questions": [
+          "犬有无疼痛表现？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-neuro-003",
+    "disease": "前庭综合征",
+    "species": [
+      "犬"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "头倾斜",
+        "眼球震颤",
+        "共济失调"
+      ],
+      "secondary": [
+        "呕吐（晕动症）",
+        "转圈",
+        "无法站立"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "前庭综合征分为外周性（内耳/前庭神经）和中枢性（脑干/小脑）。老年犬特发性前庭综合征（外周性）最常见，俗称\"老狗前庭病\"。神经学检查可定位。",
+    "home_care": "支持治疗（防摔伤/辅助进食饮水）\n止晕药（遵医嘱）\n寻找并治疗原发病因（中耳炎/甲减/肿瘤）\n大多数外周性前庭病在数天至数周内自行改善",
+    "forbidden_care": [
+      {
+        "rule": "禁止不做神经学检查就放弃",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不排查中耳炎等可治疗病因",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "脑干肿瘤",
+        "differentiator": "中枢性前庭病变常伴其他脑神经异常和本体感觉障碍",
+        "key_questions": [
+          "有无其他神经症状（意识改变/其他脑神经异常）？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-neuro-004",
+    "disease": "退行性脊髓病(DM)",
+    "species": [
+      "犬"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "后肢渐进性无力",
+        "共济失调",
+        "拖拽后肢"
+      ],
+      "secondary": [
+        "肌肉萎缩",
+        "大小便失禁（晚期）"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "DM是老年大型犬（德牧/拳师/柯基）的渐进性脊髓退行性疾病。类似人ALS。诊断依靠排除其他病因（IVDD/肿瘤/关节炎）+MRI。无有效治疗，病程数月至数年。",
+    "home_care": "物理治疗维持肌力\n辅助行走工具（轮椅）\n防褥疮护理\n保持生活质量",
+    "forbidden_care": [
+      {
+        "rule": "禁止不排除可治疗病因（IVDD/肿瘤）就诊断DM",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "IVDD",
+        "differentiator": "IVDD有疼痛+MRI可见椎间盘压迫，DM无疼痛无压迫",
+        "key_questions": [
+          "有无疼痛表现？MRI有无脊髓压迫？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-neuro-005",
+    "disease": "肝性脑病",
+    "species": [
+      "犬"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "行为改变",
+        "共济失调",
+        "流涎"
+      ],
+      "secondary": [
+        "昏睡",
+        "抽搐",
+        "定向力障碍"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "肝性脑病是肝功能严重受损或门体分流(PSS)导致血氨升高→脑神经毒性。进食高蛋白后症状加重。血氨升高+肝功能异常+PSS造影可诊断。",
+    "home_care": "低蛋白饮食\n乳果糖（降低肠道氨吸收）\n抗生素（减少肠道产氨菌）\n手术结扎PSS分流血管",
+    "forbidden_care": [
+      {
+        "rule": "禁止高蛋白饮食",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不治疗（持续高氨可致永久性脑损伤）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "原发性癫痫",
+        "differentiator": "癫痫发作与进食无关，血氨正常；肝性脑病进食后加重",
+        "key_questions": [
+          "症状是否在进食后加重？血氨多少？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-neuro-006",
+    "disease": "脑肿瘤",
+    "species": [
+      "犬"
+    ],
+    "category": "神经系统",
+    "symptoms": {
+      "primary": [
+        "抽搐（新发作，尤其是>5岁犬）",
+        "行为改变",
+        "转圈/头倾斜"
+      ],
+      "secondary": [
+        "视力丧失",
+        "共济失调",
+        "食欲改变"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "犬脑肿瘤常见类型：脑膜瘤（可手术）、胶质瘤、垂体瘤。短头品种（拳师/波士顿梗）脑肿瘤风险高。MRI+脑脊液分析可确诊。",
+    "home_care": "MRI确诊\n神经外科手术（脑膜瘤可切除）\n放射治疗\n对症：抗癫痫+激素减轻脑水肿",
+    "forbidden_care": [
+      {
+        "rule": "禁止不对新发抽搐做MRI排查脑肿瘤",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "特发性癫痫",
+        "differentiator": "特发性癫痫通常1-5岁首发，MRI正常；脑肿瘤>5岁+MRI见占位",
+        "key_questions": [
+          "犬年龄？MRI是否做过？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

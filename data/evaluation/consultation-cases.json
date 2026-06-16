@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dog-cpv-001",
+    "species": "犬",
+    "text": "三个月幼犬没打完疫苗，反复呕吐，拉番茄酱样血便，味道特别腥臭，精神很差",
+    "targetDisease": "犬细小病毒感染",
+    "expectedCategory": "传染病",
+    "isEmergency": true,
+    "expectedQuestionKeywords": ["疫苗", "血便", "腥臭"],
+    "allowedDiseaseRange": ["犬细小病毒感染"]
+  },
+  {
+    "id": "dog-diarrhea-001",
+    "species": "犬",
+    "text": "我家狗拉肚子，精神还可以，昨天吃了剩饭",
+    "targetDisease": "急性肠炎",
+    "expectedCategory": "消化系统",
+    "isEmergency": false,
+    "expectedQuestionKeywords": ["吃", "粪便", "疫苗"],
+    "allowedDiseaseRange": ["急性肠炎", "急性胃肠炎", "急性胃炎"]
+  },
+  {
+    "id": "dog-pancreatitis-001",
+    "species": "犬",
+    "text": "狗呕吐，弓背，肚子疼得厉害，昨天吃了肥肉，现在完全不吃",
+    "targetDisease": "胰腺炎",
+    "expectedCategory": "消化系统",
+    "isEmergency": false,
+    "expectedQuestionKeywords": ["高脂肪", "腹痛", "弓背"],
+    "allowedDiseaseRange": ["胰腺炎"]
+  },
+  {
+    "id": "dog-rat-poison-001",
+    "species": "犬",
+    "text": "狗吃了老鼠药，现在抽搐、流口水、站不稳",
+    "targetDisease": "抗凝血灭鼠药中毒",
+    "expectedCategory": "中毒",
+    "isEmergency": true,
+    "expectedQuestionKeywords": ["毒", "抽搐"],
+    "allowedDiseaseRange": ["抗凝血灭鼠药中毒", "中毒"]
+  },
+  {
+    "id": "cat-urinary-001",
+    "species": "猫",
+    "text": "公猫频繁进猫砂盆，但是尿不出来，一直叫，精神变差",
+    "targetDisease": "猫下泌尿道疾病/尿闭（FLUTD/FUS）",
+    "expectedCategory": "泌尿系统",
+    "isEmergency": true,
+    "expectedQuestionKeywords": ["尿", "排尿"],
+    "allowedDiseaseRange": ["猫下泌尿道疾病/尿闭（FLUTD/FUS）", "猫下泌尿道疾病"]
+  },
+  {
+    "id": "cat-panleukopenia-001",
+    "species": "猫",
+    "text": "小猫没打疫苗，发烧，呕吐，水样腹泻，精神很差",
+    "targetDisease": "猫泛白细胞减少症（猫瘟）",
+    "expectedCategory": "传染病",
+    "isEmergency": true,
+    "expectedQuestionKeywords": ["疫苗", "发热", "呕吐"],
+    "allowedDiseaseRange": ["猫泛白细胞减少症（猫瘟）", "猫瘟"]
+  },
+  {
+    "id": "cat-parasite-001",
+    "species": "猫",
+    "text": "猫拉稀，最近瘦了，被毛粗糙，很久没驱虫，粪便里像有米粒节片",
+    "targetDisease": "绦虫感染",
+    "expectedCategory": "寄生虫",
+    "isEmergency": false,
+    "expectedQuestionKeywords": ["驱虫", "虫体", "米粒"],
+    "allowedDiseaseRange": ["绦虫感染", "猫绦虫病", "寄生虫感染"]
+  },
+  {
+    "id": "cat-respiratory-001",
+    "species": "猫",
+    "text": "猫打喷嚏，流鼻涕，眼睛分泌物多，食欲下降",
+    "targetDisease": "猫上呼吸道感染",
+    "expectedCategory": "呼吸系统",
+    "isEmergency": false,
+    "expectedQuestionKeywords": ["鼻涕", "眼", "呼吸"],
+    "allowedDiseaseRange": ["猫上呼吸道感染", "猫病毒性鼻气管炎", "猫杯状病毒感染"]
+  }
+]

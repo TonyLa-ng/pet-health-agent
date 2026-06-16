@@ -1,0 +1,169 @@
+[
+  {
+    "id": "canine-hema-001",
+    "disease": "免疫介导性溶血性贫血(IMHA)",
+    "species": [
+      "犬"
+    ],
+    "category": "血液",
+    "symptoms": {
+      "primary": [
+        "牙龈苍白",
+        "虚弱",
+        "呼吸急促"
+      ],
+      "secondary": [
+        "黄疸",
+        "血红蛋白尿",
+        "发热"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "IMHA是免疫系统攻击自身红细胞导致溶血。可卡犬/贵宾/爱尔兰雪达犬高发。库姆斯试验阳性+球形红细胞增多+血涂片可诊断。需排查潜在诱因（感染/肿瘤/药物/疫苗）。",
+    "home_care": "⚠️ 立即就医\n免疫抑制治疗（泼尼松龙+硫唑嘌呤/环孢素）\n严重贫血需输血\n抗血栓（血栓风险高）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不排查潜在诱因",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行停药（复发风险）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "巴贝斯虫病",
+        "differentiator": "巴贝斯虫血涂片可见红细胞内虫体；IMHA库姆斯试验阳性",
+        "key_questions": [
+          "有无蜱虫叮咬史？库姆斯试验结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-hema-002",
+    "disease": "免疫介导性血小板减少症(ITP)",
+    "species": [
+      "犬"
+    ],
+    "category": "血液",
+    "symptoms": {
+      "primary": [
+        "皮肤瘀斑/出血点",
+        "鼻出血",
+        "牙龈出血"
+      ],
+      "secondary": [
+        "黑便",
+        "血尿",
+        "贫血（严重者）"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "ITP是免疫系统破坏血小板导致血小板计数极度下降（<30×10⁹/L）。需排查潜在诱因（感染/药物/肿瘤/疫苗）。",
+    "home_care": "⚠️ 需就医\n免疫抑制治疗\n严重者输注血小板\n避免任何可能导致出血的操作",
+    "forbidden_care": [
+      {
+        "rule": "禁止进行任何有创操作（抽血/手术）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用影响血小板的药物（NSAIDs/某些抗生素）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "DIC",
+        "differentiator": "DIC血小板+凝血因子同时消耗，PT/APTT延长；ITP仅血小板减少",
+        "key_questions": [
+          "有无凝血功能异常？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-hema-003",
+    "disease": "弥散性血管内凝血(DIC)",
+    "species": [
+      "犬"
+    ],
+    "category": "血液",
+    "symptoms": {
+      "primary": [
+        "全身性出血",
+        "瘀斑",
+        "静脉穿刺处持续渗血"
+      ],
+      "secondary": [
+        "器官功能衰竭",
+        "休克"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "DIC是严重全身性疾病（败血症/中暑/肿瘤/胰腺炎/蛇咬伤）导致的凝血系统广泛激活和消耗。血小板下降+PT/APTT延长+D二聚体升高+FDP升高可诊断。",
+    "home_care": "⚠️ 此为致命急症，需ICU治疗\n治疗原发病（根本）\n输注新鲜冰冻血浆/血小板\n抗凝治疗（争议，需兽医判断）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不治疗原发病",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止常规手术/操作",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "ITP",
+        "differentiator": "ITP仅血小板减少，凝血功能正常；DIC全凝血系统异常",
+        "key_questions": [
+          "PT/APTT有无延长？原发病是什么？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

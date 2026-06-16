@@ -1,0 +1,112 @@
+[
+  {
+    "id": "canine-oto-001",
+    "disease": "外耳炎",
+    "species": [
+      "犬"
+    ],
+    "category": "耳科",
+    "symptoms": {
+      "primary": [
+        "耳道红肿",
+        "耳分泌物",
+        "频繁摇头/挠耳"
+      ],
+      "secondary": [
+        "耳臭",
+        "耳廓脱毛",
+        "疼痛"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "犬外耳炎最常见，垂耳犬（可卡/金毛/拉布拉多）高发。病因包括细菌/酵母菌感染、过敏、耳螨、异物（草芒）。耳镜检查+耳分泌物细胞学可诊断。",
+    "home_care": "定期耳道清洁（兽医推荐洗耳液）\n按医嘱使用耳药\n治疗全身性过敏（如有）\n保持耳道干燥",
+    "forbidden_care": [
+      {
+        "rule": "禁止用棉签掏耳（将分泌物推入更深）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用酒精类清洁剂（刺激耳道）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "耳螨",
+        "differentiator": "耳螨分泌物呈咖啡渣样，显微镜可见虫体；幼犬/群居多发",
+        "key_questions": [
+          "耳分泌物是什么颜色和性状？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-oto-002",
+    "disease": "耳血肿",
+    "species": [
+      "犬"
+    ],
+    "category": "耳科",
+    "symptoms": {
+      "primary": [
+        "耳廓肿胀（软性肿块）",
+        "耳廓变形"
+      ],
+      "secondary": [
+        "疼痛",
+        "频繁甩头"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "耳血肿是耳廓软骨和皮肤间血管破裂积血，通常由外耳炎导致的剧烈甩头/挠耳引起。触诊波动感+穿刺抽出血液可诊断。需同时治疗外耳炎。",
+    "home_care": "外科引流或手术修复\n同时治疗外耳炎（根本原因）\n戴伊丽莎白圈防进一步损伤",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行穿刺（可能导致感染和复发）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理外耳炎",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "耳廓脓肿",
+        "differentiator": "脓肿穿刺为脓液（非血液），细胞学可见大量中性粒细胞",
+        "key_questions": [
+          "有无耳炎病史？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

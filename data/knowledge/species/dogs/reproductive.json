@@ -1,0 +1,254 @@
+[
+  {
+    "id": "canine-repro-001",
+    "disease": "子宫蓄脓",
+    "species": [
+      "犬"
+    ],
+    "category": "产科",
+    "symptoms": {
+      "primary": [
+        "多饮多尿",
+        "阴道分泌物（脓性/血性）",
+        "食欲下降"
+      ],
+      "secondary": [
+        "腹部胀大",
+        "发热",
+        "呕吐",
+        "精神萎靡"
+      ],
+      "detail": {
+        "多饮多尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "阴道分泌物（脓性/血性）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "子宫蓄脓是中老年未绝育母犬的常见急症，发生于发情后4-8周（黄体期）。分为开放型（有分泌物）和闭锁型（无分泌物，更危险）。血常规+CRP+B超可确诊。卵巢子宫切除术是首选治疗。",
+    "home_care": "⚠️ 此为致命急症，需立即就医\n尽快手术（卵巢子宫切除术）\n术前稳定体况（输液+抗生素）\n术后按医嘱护理",
+    "forbidden_care": [
+      {
+        "rule": "禁止等待观察——闭锁型子宫蓄脓可致子宫破裂+败血症",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止对未绝育母犬不做预防（建议早期绝育）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "正常妊娠",
+        "differentiator": "妊娠无发热、无脓性分泌物、无白细胞升高；B超可见胎儿而非子宫积脓",
+        "key_questions": [
+          "母犬是否绝育？",
+          "上次发情是什么时候？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物产科与繁殖学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-repro-002",
+    "disease": "难产",
+    "species": [
+      "犬"
+    ],
+    "category": "产科",
+    "symptoms": {
+      "primary": [
+        "努责超过30分钟无胎儿娩出",
+        "超过预产期",
+        "绿色/黑色分泌物无胎儿娩出"
+      ],
+      "secondary": [
+        "虚弱",
+        "发热",
+        "休克"
+      ],
+      "detail": {
+        "努责超过30分钟无胎儿娩出": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "超过预产期": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "绿色/黑色分泌物无胎儿娩出": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "难产原因包括母体因素（子宫收缩无力/骨盆狭窄）和胎儿因素（胎儿过大/胎位不正/死胎）。距上次分娩超过2-4小时未继续分娩需警惕。X光/B超评估胎儿数量和状态。",
+    "home_care": "⚠️ 立即前往24小时宠物医院\n可能需要剖腹产\n路途中保持母犬安静\n不要自行助产",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行用手助产（可能造成子宫破裂或感染）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止等待观察超过2小时",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用催产素（需兽医判断）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "正常分娩",
+        "differentiator": "正常分娩应有规律宫缩，每个胎儿间隔不超过2小时",
+        "key_questions": [
+          "距上一只胎儿娩出已过多久？",
+          "母犬是否仍有规律宫缩？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物产科与繁殖学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-repro-003",
+    "disease": "假孕",
+    "species": [
+      "犬"
+    ],
+    "category": "产科",
+    "symptoms": {
+      "primary": [
+        "乳腺发育",
+        "泌乳",
+        "筑巢行为"
+      ],
+      "secondary": [
+        "腹部胀大",
+        "食欲改变",
+        "焦虑"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "假孕是母犬发情后黄体期孕酮下降、催乳素升高导致的类妊娠综合征。未经配种也可发生。通常2-3周自愈。反复发作需考虑绝育。",
+    "home_care": "减少液体摄入（减少乳汁分泌）\n避免乳腺刺激\n观察乳腺有无硬块（排除乳腺炎或肿瘤）\n严重或反复发作者考虑绝育",
+    "forbidden_care": [
+      {
+        "rule": "禁止挤奶（刺激更多泌乳）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止对反复发作者不做绝育",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "乳腺炎",
+        "differentiator": "乳腺炎有红肿热痛+发热+脓性乳汁；假孕乳汁清亮无炎症",
+        "key_questions": [
+          "乳腺有无红肿热痛？乳汁什么颜色？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-repro-004",
+    "disease": "乳腺炎",
+    "species": [
+      "犬"
+    ],
+    "category": "产科",
+    "symptoms": {
+      "primary": [
+        "乳腺红肿热痛",
+        "乳汁异常（脓性/血性）"
+      ],
+      "secondary": [
+        "发热",
+        "精神萎靡",
+        "母犬拒绝哺乳"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "乳腺炎是哺乳期乳腺细菌感染。乳汁淤积+细菌逆行感染是主因。乳汁细胞学+细菌培养可确诊。",
+    "home_care": "抗生素治疗（遵医嘱，需考虑哺乳幼犬安全）\n热敷\n挤出感染乳汁\n严重者需手术引流\n幼犬改用代乳品",
+    "forbidden_care": [
+      {
+        "rule": "禁止不处理感染乳汁（幼犬吸食可能中毒）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "乳腺肿瘤",
+        "differentiator": "乳腺肿瘤无发热红肿，为无痛性肿块",
+        "key_questions": [
+          "犬是否在哺乳期？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

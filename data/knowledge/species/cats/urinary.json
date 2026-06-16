@@ -1,0 +1,484 @@
+[
+  {
+    "id": "feline-urinary-001",
+    "disease": "猫下泌尿道疾病/尿闭（FLUTD/FUS）",
+    "species": [
+      "猫"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "排尿困难",
+        "完全无尿或仅滴尿",
+        "频繁进猫砂盆但无尿",
+        "膀胱胀大"
+      ],
+      "secondary": [
+        "尿频",
+        "血尿",
+        "乱尿（排尿行为异常）",
+        "排尿疼痛",
+        "食欲下降",
+        "精神萎靡",
+        "过度舔舐生殖器",
+        "呕吐",
+        "腹部触诊敏感"
+      ],
+      "detail": {
+        "排尿困难": {
+          "frequency": "持续",
+          "content": "频繁进出猫砂盆，长时间蹲坐但仅排少量尿液或完全无尿"
+        },
+        "乱尿": {
+          "frequency": "高频",
+          "content": "在猫砂盆以外的地方排尿（沙发/地板/床上）——这是猫排尿疼痛/困难的特征行为"
+        },
+        "血尿": {
+          "frequency": "间歇",
+          "content": "尿液呈粉红色或猫砂中出现红色团块"
+        },
+        "排尿疼痛": {
+          "frequency": "伴随排尿",
+          "content": "排尿时发出嚎叫或异常叫声"
+        },
+        "过度舔舐生殖器": {
+          "frequency": "高频",
+          "content": "因尿道不适反复舔舐生殖器区域"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫下泌尿道疾病（FLUTD）是猫最常见的泌尿系统问题，公猫因尿道狭窄尤其容易发生完全阻塞（尿闭）。常见病因包括特发性膀胱炎（FIC，占50-60%）、膀胱结石（鸟粪石/草酸钙）、尿道栓子、细菌感染、肿瘤。公猫尿道阻塞是致命的急症，完全阻塞24-48小时可导致膀胱破裂、高钾血症和急性肾衰竭死亡。诊断依据：排尿困难+频繁进猫砂盆+乱尿行为+触诊膀胱充盈。需立即就医。",
+    "home_care": "⚠️ 猫尿闭属于致命急症，以下建议仅供就医前临时参考：\n1. 立即停止自行处理，尽快前往24小时宠物医院\n2. 路途上避免按压猫的腹部\n3. 不要强行灌水\n4. 不要自行使用任何利尿剂或药物\n5. 观察猫是否还能排出少量尿液——完全无法排尿是最危险的信号",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行导尿或按压膀胱——可能导致膀胱破裂",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用利尿剂或任何通淋药物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止强行灌水",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止等待观察——猫尿闭24小时内可致命",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止将猫的乱尿行为视为行为问题而惩罚——这是排尿疼痛/困难的表现",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医紧急处理后根据病因决定：解痉药/镇痛药/抗生素/处方粮（泌尿道配方），不可自行用药"
+    ],
+    "vet_threshold": "⚠️ 猫尿闭属于致命急症：1) 频繁进猫砂盆但无尿或仅几滴；2) 在任何异常位置排尿；3) 排尿时嚎叫；4) 超过12小时未见正常排尿；5) 腹部触诊膀胱胀大坚硬；6) 伴发呕吐、精神萎靡、体温下降。公猫完全阻塞24小时内未处理可能因高钾血症猝死。",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "特发性膀胱炎（FIC，非阻塞性）",
+        "differentiator": "FIC仍有排尿（可能带血），排尿通畅但频繁；环境应激是主要诱因；尿闭无法排出尿液，是急症",
+        "key_questions": [
+          "猫是否还能排出一些尿液？排尿量是否明显减少？"
+        ]
+      },
+      {
+        "disease": "膀胱结石（非阻塞性）",
+        "differentiator": "结石可能未完全阻塞尿道，仍有尿液排出但带血；X光/B超可确诊结石位置和大小",
+        "key_questions": [
+          "猫之前是否有过泌尿问题？饮食类型是什么？"
+        ]
+      },
+      {
+        "disease": "急性肾衰竭",
+        "differentiator": "肾衰竭初期多尿（代偿期），后期少尿/无尿；常伴明显全身症状；接触肾毒性物质史（百合花、防冻液、某些止痛药对猫剧毒）",
+        "key_questions": [
+          "猫有无可能接触百合花或其他植物？有无接触防冻液？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学（第4版）",
+      "猫下泌尿道疾病诊疗指南（ISFM/AAFP）"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-uro-002",
+    "disease": "猫特发性膀胱炎(FIC)",
+    "species": [
+      "猫"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "尿频",
+        "血尿",
+        "排尿疼痛",
+        "乱尿"
+      ],
+      "secondary": [
+        "过度舔舐生殖器",
+        "在猫砂盆外排尿"
+      ],
+      "detail": {
+        "尿频": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "血尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "排尿疼痛": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "乱尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "FIC是猫下泌尿道疾病最常见原因（占50-60%），非细菌性非结石性膀胱炎症。应激是主要诱因（环境变化/多猫冲突/缺乏环境丰富化）。排除结石和感染后诊断。公猫可能发展为尿闭。",
+    "home_care": "环境丰富化（猫抓板/高处/藏身处/互动玩具）\n增加饮水（饮水机/湿粮/多处水源）\n减少应激（费洛蒙/独立空间）\n泌尿道处方粮",
+    "forbidden_care": [
+      {
+        "rule": "禁止惩罚乱尿行为（增加应激）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止忽视环境应激管理",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止仅依赖药物治疗",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "细菌性膀胱炎",
+        "differentiator": "细菌性膀胱炎多见于老年猫/有导尿史的猫，尿液细菌培养阳性",
+        "key_questions": [
+          "猫年龄多大？",
+          "有无做过尿液细菌培养？"
+        ]
+      }
+    ],
+    "references": [
+      "猫下泌尿道疾病诊疗指南(ISFM/AAFP)"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-uro-003",
+    "disease": "猫慢性肾病(CKD)",
+    "species": [
+      "猫"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "多饮多尿",
+        "食欲下降",
+        "体重下降"
+      ],
+      "secondary": [
+        "呕吐",
+        "口臭",
+        "口腔溃疡",
+        "被毛粗糙"
+      ],
+      "detail": {
+        "多饮多尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "CKD是老年猫最常见慢性病之一，肾单位进行性不可逆损失。早期仅多饮多尿，后期出现尿毒症。SDMA可更早检测肾功能下降。IRIS分期指导治疗。",
+    "home_care": "肾脏处方粮（低磷优质蛋白）\n全天充足饮水\n磷结合剂（遵医嘱）\n控制高血压\n定期复查肾功能\n皮下补液（中晚期）",
+    "forbidden_care": [
+      {
+        "rule": "禁止喂食高磷食物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用肾毒性药物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不定期监测",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "甲亢",
+        "differentiator": "甲亢猫食欲增加但体重下降，常伴活动增加、心率快；CKD猫食欲下降",
+        "key_questions": [
+          "猫食欲是增加还是下降？"
+        ]
+      }
+    ],
+    "references": [
+      "IRIS慢性肾病诊疗指南"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-uro-004",
+    "disease": "猫肾结石",
+    "species": [
+      "猫"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "血尿",
+        "反复尿路感染",
+        "排尿困难"
+      ],
+      "secondary": [
+        "腹痛",
+        "精神萎靡"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫肾结石较膀胱结石少见，常见类型为草酸钙。与遗传、饮食、尿液pH相关。X光/B超可确诊。小结石可药物溶解或排出，大结石需手术。",
+    "home_care": "增加饮水稀释尿液\n泌尿道处方粮\n定期影像学复查\n手术取出大结石",
+    "forbidden_care": [
+      {
+        "rule": "禁止不增加饮水",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止随意补钙（草酸钙结石猫）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肾盂肾炎",
+        "differentiator": "肾盂肾炎以发热+白细胞升高为主，尿培养阳性，无结石影像",
+        "key_questions": [
+          "B超或X光有无结石？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-uro-005",
+    "disease": "猫急性肾损伤(AKI)",
+    "species": [
+      "猫"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "少尿或无尿",
+        "呕吐",
+        "精神萎靡",
+        "食欲废绝"
+      ],
+      "secondary": [
+        "口腔溃疡",
+        "脱水",
+        "低温"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫急性肾损伤病因包括中毒（百合花/防冻液/NSAIDs）、感染、缺血（麻醉意外/低血压）、尿路阻塞后利尿期。血液生化（BUN/Crea急剧升高）+尿检可诊断。",
+    "home_care": "⚠️ 立即就医\n静脉输液利尿\n治疗原发病因\n严重者需血液透析",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用肾毒性药物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止给猫百合花（所有部位对猫剧毒）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "慢性肾病急性发作",
+        "differentiator": "CKD急性发作有长期多饮多尿/消瘦史，肾脏B超见小肾（纤维化）",
+        "key_questions": [
+          "猫之前有无多饮多尿史？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-uro-006",
+    "disease": "猫输尿管结石",
+    "species": [
+      "猫"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "血尿",
+        "腹痛",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "呕吐",
+        "食欲下降"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫输尿管结石多为草酸钙，可导致输尿管梗阻→肾盂积水→肾功能不可逆损伤。CT是诊断金标准。需紧急手术（输尿管切开取石/输尿管支架/SUB旁路）。",
+    "home_care": "⚠️ 需紧急就医\n手术解除梗阻\n术后监测肾功能\n增加饮水+泌尿道处方粮防复发",
+    "forbidden_care": [
+      {
+        "rule": "禁止等待自行排出（输尿管梗阻不会自行解除）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肾结石",
+        "differentiator": "肾结石在肾脏内，输尿管结石已进入输尿管；B超/CT可定位",
+        "key_questions": [
+          "结石在肾脏还是输尿管？肾功能有无受损？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-uro-007",
+    "disease": "猫肾盂肾炎",
+    "species": [
+      "猫"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "发热",
+        "腰痛",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "多饮多尿",
+        "呕吐",
+        "食欲下降"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "肾盂肾炎是细菌上行感染至肾盂和肾实质。尿液细菌培养+药敏+B超（肾盂扩张）可诊断。需长疗程抗生素（4-6周）。",
+    "home_care": "抗生素（根据药敏，4-6周）\n增加饮水\n复查尿培养确认清除\n排查潜在病因（结石/解剖异常）",
+    "forbidden_care": [
+      {
+        "rule": "禁止抗生素疗程不足",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不查找潜在病因",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "下泌尿道感染",
+        "differentiator": "下泌尿道感染无发热和腰痛，B超肾盂正常",
+        "key_questions": [
+          "有无发热和腰痛？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

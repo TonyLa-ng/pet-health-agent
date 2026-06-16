@@ -1,0 +1,497 @@
+[
+  {
+    "id": "feline-inf-001",
+    "disease": "猫瘟（泛白细胞减少症）",
+    "species": [
+      "猫"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "高热",
+        "剧烈呕吐",
+        "血便"
+      ],
+      "secondary": [
+        "食欲废绝",
+        "精神极度萎靡",
+        "脱水",
+        "白细胞急剧下降"
+      ],
+      "detail": {
+        "高热": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "剧烈呕吐": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "血便": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫瘟病毒（FPV）是高度传染性细小病毒，侵害肠道上皮和骨髓。未接种疫苗的幼猫高发，致死率极高。FPV快速试纸+血常规（白细胞骤降）可诊断。",
+    "home_care": "⚠️ 需立即住院隔离治疗\n静脉输液+抗生素防继发感染\n严格隔离（病毒在环境中存活长达一年）\n彻底消毒（含氯消毒剂或过硫酸氢钾）",
+    "forbidden_care": [
+      {
+        "rule": "禁止与其他猫接触",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行喂食喂水",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫冠状病毒感染",
+        "differentiator": "冠状病毒症状较轻，白细胞下降不明显，病程较短",
+        "key_questions": [
+          "猫是否完成疫苗接种？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-inf-002",
+    "disease": "猫传染性腹膜炎(FIP)",
+    "species": [
+      "猫"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "持续发热（抗生素无效）",
+        "腹围增大（湿性）",
+        "神经症状（干性）"
+      ],
+      "secondary": [
+        "食欲下降",
+        "体重下降",
+        "黄疸",
+        "呼吸困难（胸水）",
+        "葡萄膜炎"
+      ],
+      "detail": {
+        "持续发热（抗生素无效）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "腹围增大（湿性）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "神经症状（干性）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "FIP由猫冠状病毒（FCoV）突变引起，分为湿性（胸腹水）和干性（肉芽肿性病变）。曾是绝症，现有抗病毒药GS-441524可治疗。PCR+积液分析+球蛋白升高+白球比<0.6可辅助诊断。",
+    "home_care": "GS-441524抗病毒治疗（需兽医处方，每日注射至少84天）\n对症支持治疗\n营养支持\n定期复查",
+    "forbidden_care": [
+      {
+        "rule": "禁止放弃治疗（现有有效疗法）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不完成全程治疗（84天）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肿瘤性胸腹水",
+        "differentiator": "肿瘤性积液细胞学检查可见肿瘤细胞，无FIP特征性球蛋白升高",
+        "key_questions": [
+          "猫年龄多大？",
+          "有无做过积液分析？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版",
+      "FIP诊疗最新进展"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-inf-003",
+    "disease": "猫艾滋病(FIV)",
+    "species": [
+      "猫"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "慢性口炎",
+        "体重下降",
+        "反复感染"
+      ],
+      "secondary": [
+        "发热",
+        "淋巴结肿大",
+        "贫血",
+        "慢性呼吸道感染"
+      ],
+      "detail": {
+        "慢性口炎": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "反复感染": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫免疫缺陷病毒（FIV）经咬伤传播（深咬伤口），主要感染未绝育公猫（打斗）。ELISA快速检测+Western Blot确认。感染后潜伏期可长达数年。无法治愈，但可长期管理。",
+    "home_care": "严格室内饲养（防止传染他猫和继发感染）\n高质量饮食\n定期体检（每6个月）\n积极治疗任何继发感染\n避免使用免疫抑制药物",
+    "forbidden_care": [
+      {
+        "rule": "禁止放养（传播风险）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止与其他猫共用食盆水盆",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理继发感染",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫白血病(FeLV)",
+        "differentiator": "FeLV也可致免疫抑制，常伴肿瘤（淋巴瘤），ELISA可区分",
+        "key_questions": [
+          "猫有无打斗史和户外活动史？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-inf-004",
+    "disease": "猫白血病(FeLV)",
+    "species": [
+      "猫"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "体重下降",
+        "反复感染",
+        "淋巴瘤"
+      ],
+      "secondary": [
+        "贫血",
+        "口腔炎",
+        "发热"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫白血病病毒(FeLV)经唾液长期密切接触传播（互相理毛/共用水盆食盆）。导致免疫抑制+肿瘤。ELISA快速检测可诊断。疫苗可预防。",
+    "home_care": "严格室内饲养\n高质量饮食\n定期体检（每6个月）\n积极治疗继发感染\n疫苗接种（未感染猫）",
+    "forbidden_care": [
+      {
+        "rule": "禁止放养",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止与其他未检测的猫接触",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "FIV",
+        "differentiator": "FIV主要经咬伤传播（未绝育公猫），FeLV经长期密切接触传播",
+        "key_questions": [
+          "猫有无做过FeLV/FIV检测？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-inf-005",
+    "disease": "猫杯状病毒感染",
+    "species": [
+      "猫"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "口腔溃疡",
+        "流涎",
+        "打喷嚏"
+      ],
+      "secondary": [
+        "发热",
+        "食欲下降",
+        "结膜炎",
+        "跛行（一过性）"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫杯状病毒(FCV)是猫上呼吸道感染主要病原体之一，以口腔溃疡为特征性病变。强毒株可致全身性感染（VS-FCV，高致死率）。疫苗可减轻但不能完全预防。",
+    "home_care": "对症支持治疗\n鼓励进食（口腔疼痛→软食）\n保持口腔清洁\n隔离病猫",
+    "forbidden_care": [
+      {
+        "rule": "禁止与其他猫接触",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不接种疫苗",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫疱疹病毒感染",
+        "differentiator": "FHV-1以角膜炎/角膜溃疡+打喷嚏为主，口腔溃疡不常见",
+        "key_questions": [
+          "有无口腔溃疡？有无角膜病变？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-inf-006",
+    "disease": "猫衣原体感染",
+    "species": [
+      "猫"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "结膜炎（单侧→双侧）",
+        "眼睑水肿",
+        "眼分泌物"
+      ],
+      "secondary": [
+        "打喷嚏",
+        "流鼻涕"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫衣原体(Chlamydia felis)主要引起猫结膜炎，经直接接触传播。PCR可确诊。口服多西环素（注意食道损伤！）治疗4周。",
+    "home_care": "多西环素治疗（遵医嘱，喂药后需喂水防食管炎）\n隔离\n眼部抗生素药膏\n同舍猫同时治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止多西环素干喂（需喂药后冲水防食管炎）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不完成全程治疗（需4周）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫支原体感染",
+        "differentiator": "支原体结膜炎症状更轻，PCR可区分",
+        "key_questions": [
+          "PCR检测结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-infect-007",
+    "disease": "猫血巴尔通体病（猫传贫）",
+    "species": [
+      "猫"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "贫血（牙龈苍白）",
+        "嗜睡",
+        "呼吸急促"
+      ],
+      "secondary": [
+        "发热",
+        "黄疸",
+        "脾肿大"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫血巴尔通体(Mycoplasma haemofelis)寄生于红细胞表面导致溶血性贫血。经跳蚤/蜱虫叮咬或咬伤传播。血涂片见红细胞表面嗜碱性小体+PCR可确诊。",
+    "home_care": "多西环素（4周）\n严重贫血需输血\n免疫抑制（激素，遵医嘱）\n控制跳蚤蜱虫",
+    "forbidden_care": [
+      {
+        "rule": "禁止不使用抗生素",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不控制外寄生虫",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "IMHA",
+        "differentiator": "IMHA库姆斯试验阳性，血涂片无红细胞表面病原体",
+        "key_questions": [
+          "血涂片有无红细胞表面嗜碱性小体？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-infect-008",
+    "disease": "猫孢子丝菌病",
+    "species": [
+      "猫"
+    ],
+    "category": "传染病",
+    "symptoms": {
+      "primary": [
+        "皮肤结节/溃疡（尤其头部和四肢）",
+        "淋巴管串珠样结节"
+      ],
+      "secondary": [
+        "呼吸道症状（吸入型）",
+        "发热"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "孢子丝菌病是申克孢子丝菌经皮肤伤口感染导致的真菌病。户外猫高发。猫可排出大量真菌→人畜共患（兽医感染风险！）。细胞学/真菌培养可确诊。",
+    "home_care": "伊曲康唑长期治疗（数月）\n严格室内饲养\n处理猫时戴手套（人畜共患风险高）",
+    "forbidden_care": [
+      {
+        "rule": "禁止放养",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不戴手套接触病变（可传染给人）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "隐球菌病",
+        "differentiator": "隐球菌多见于鼻腔（鼻部肿胀），墨汁染色见厚荚膜酵母",
+        "key_questions": [
+          "病变部位？细胞学结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

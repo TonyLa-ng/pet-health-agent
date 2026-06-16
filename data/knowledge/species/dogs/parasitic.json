@@ -1,0 +1,370 @@
+[
+  {
+    "id": "canine-par-001",
+    "disease": "犬蛔虫病",
+    "species": [
+      "犬"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "腹泻",
+        "呕吐",
+        "腹部胀大"
+      ],
+      "secondary": [
+        "体重下降",
+        "被毛粗糙",
+        "咳嗽（幼虫移行）"
+      ],
+      "detail": {
+        "腹泻": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呕吐": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "腹部胀大": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "犬蛔虫（Toxocara canis）是常见肠道寄生虫，幼犬感染率极高（可经胎盘和乳汁传播）。成虫可在粪便中肉眼可见（白色长条状）。粪便漂浮法镜检可确诊。具有人畜共患风险（幼虫移行症）。",
+    "home_care": "幼犬2/4/6/8周龄各驱虫1次，后每月1次至6月龄\n成犬每3个月驱虫1次\n及时清理粪便\n接触后洗手（人畜共患）",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用猫用驱虫药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不按时驱虫",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "钩虫病",
+        "differentiator": "钩虫以贫血为突出特征，粪便镜检可见不同形态虫卵",
+        "key_questions": [
+          "犬有无贫血症状（牙龈苍白）？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物寄生虫学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-par-002",
+    "disease": "犬钩虫病",
+    "species": [
+      "犬"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "贫血（牙龈苍白）",
+        "腹泻（可能黑便）",
+        "体重下降"
+      ],
+      "secondary": [
+        "虚弱",
+        "被毛粗糙",
+        "皮炎（幼虫钻入皮肤）"
+      ],
+      "detail": {
+        "贫血（牙龈苍白）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "腹泻（可能黑便）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "犬钩虫（Ancylostoma caninum）吸附于小肠黏膜吸血，导致严重缺铁性贫血。幼犬感染可致命。粪便漂浮法镜检虫卵可确诊。",
+    "home_care": "定期驱虫\n严重贫血需输血\n补充铁剂\n保持环境干燥（虫卵在潮湿环境孵化）",
+    "forbidden_care": [
+      {
+        "rule": "禁止对严重贫血犬不做驱虫",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理环境（虫卵可在土壤中存活数周）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "跳蚤感染导致的贫血",
+        "differentiator": "跳蚤贫血多见于幼犬，体表可见大量跳蚤和跳蚤粪便",
+        "key_questions": [
+          "犬体表有无大量跳蚤？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物寄生虫学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-par-003",
+    "disease": "犬蜱虫病（巴贝斯虫病）",
+    "species": [
+      "犬"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "高热",
+        "贫血",
+        "黄疸"
+      ],
+      "secondary": [
+        "血红蛋白尿（酱油色尿）",
+        "精神萎靡",
+        "食欲废绝",
+        "脾脏肿大"
+      ],
+      "detail": {
+        "高热": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "贫血": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "黄疸": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "巴贝斯虫经蜱虫叮咬传播，寄生于红细胞内导致溶血性贫血。血液涂片镜检+PCR可确诊。",
+    "home_care": "⚠️ 需立即就医\n抗巴贝斯虫药物（三氮脒/阿托伐醌+阿奇霉素）\n严重贫血需输血\n定期使用体外驱虫药防蜱",
+    "forbidden_care": [
+      {
+        "rule": "禁止不用体外驱虫药（预防蜱虫）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止延误治疗（严重溶血可致死）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "免疫介导性溶血性贫血(IMHA)",
+        "differentiator": "IMHA无蜱虫接触史，库姆斯试验阳性，无寄生虫血涂片发现",
+        "key_questions": [
+          "犬有无被蜱虫叮咬史？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物寄生虫学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-par-004",
+    "disease": "疥螨病",
+    "species": [
+      "犬"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "剧烈瘙痒（夜间加重）",
+        "脱毛",
+        "皮肤红斑"
+      ],
+      "secondary": [
+        "结痂（耳缘/肘部）",
+        "皮肤增厚"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "犬疥螨(Sarcoptes scabiei)高度传染，人畜共患（人表现为暂时性瘙痒性丘疹）。耳缘-足肘反射阳性。浅层皮肤刮片镜检可确诊（但检出率仅30%）。",
+    "home_care": "杀螨药物治疗（伊维菌素/塞拉菌素/氟雷拉纳）\n环境清洁\n同舍宠物同时治疗\n避免人接触（人畜共患）",
+    "forbidden_care": [
+      {
+        "rule": "禁止仅治疗有症状犬（无症状带虫者也需治疗）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "过敏性疾病",
+        "differentiator": "过敏通常无耳缘-足肘反射，对杀螨治疗无反应",
+        "key_questions": [
+          "家中其他犬或人有无瘙痒？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-par-005",
+    "disease": "跳蚤感染",
+    "species": [
+      "犬"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "瘙痒",
+        "皮肤丘疹",
+        "可见跳蚤或跳蚤粪便"
+      ],
+      "secondary": [
+        "脱毛（尾根部和后腿）",
+        "继发感染"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "犬常见外寄生虫。成虫仅占跳蚤种群的5%，其余95%（卵+幼虫+蛹）在环境中。梳毛检查跳蚤粪便（黑色碎屑→湿后变红）可确诊。",
+    "home_care": "每月高效体外驱虫（全年）\n环境灭蚤（吸尘+生长调节剂）\n同舍所有宠物同时驱虫",
+    "forbidden_care": [
+      {
+        "rule": "禁止仅治疗不处理环境",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不定期驱虫",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "食物过敏",
+        "differentiator": "食物过敏多伴消化道症状，驱虫无效",
+        "key_questions": [
+          "有无看到跳蚤或跳蚤粪便？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-par-006",
+    "disease": "犬绦虫病",
+    "species": [
+      "犬"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "肛周可见白色节片（米粒样）",
+        "舔舐肛周"
+      ],
+      "secondary": [
+        "轻度腹泻",
+        "体重下降（严重感染）"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "犬常见绦虫为犬复孔绦虫（经跳蚤传播）和棘球绦虫（经生肉/内脏传播，人畜共患）。粪便中可见蠕动节片。粪便漂浮法可能漏检。",
+    "home_care": "吡喹酮驱虫\n控制跳蚤（阻断犬复孔绦虫传播）\n不喂生肉（阻断棘球绦虫）\n定期驱虫",
+    "forbidden_care": [
+      {
+        "rule": "禁止喂食生肉/内脏",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不控制跳蚤",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "蛲虫",
+        "differentiator": "犬无蛲虫感染（蛲虫是人的寄生虫）；肛周瘙痒需检查绦虫节片或肛门腺",
+        "key_questions": [
+          "肛周有无白色米粒状节片？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

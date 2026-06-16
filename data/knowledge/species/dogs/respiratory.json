@@ -1,0 +1,531 @@
+[
+  {
+    "id": "canine-resp-001",
+    "disease": "犬窝咳（传染性气管支气管炎）",
+    "species": [
+      "犬"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "咳嗽",
+        "干咳",
+        "干呕"
+      ],
+      "secondary": [
+        "流鼻涕",
+        "打喷嚏",
+        "发热",
+        "精神萎靡"
+      ],
+      "detail": {
+        "咳嗽": {
+          "frequency": "阵发性",
+          "content": "特征性干咳，类似鹅叫或喉咙卡东西的声音",
+          "trigger": "运动后或兴奋时加重"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "犬窝咳是由多种病原体（副流感病毒、腺病毒、支气管败血波氏杆菌等）引起的高度传染性呼吸道疾病。多发于群居环境（犬舍、寄养中心）。特征性干咳+接触史可初步诊断。",
+    "home_care": "1. 隔离病犬，避免传染其他犬\n2. 保持环境温暖湿润，使用加湿器\n3. 避免佩戴颈圈，改用胸背带\n4. 减少运动，充分休息\n5. 确保充足饮水",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用人用止咳药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止佩戴颈圈遛狗（压迫气管加重咳嗽）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "止咳药（需兽医处方）",
+      "抗生素（继发细菌感染时需兽医处方）",
+      "支气管扩张剂（需兽医处方）"
+    ],
+    "vet_threshold": "以下情况需就医：1) 咳嗽持续超过2周；2) 出现呼吸困难或张口呼吸；3) 高热（>39.5℃）；4) 精神极度萎靡、食欲废绝；5) 幼犬/老年犬",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "气管塌陷",
+        "differentiator": "气管塌陷咳嗽更频繁，运动/兴奋时立即发作；X光/气管镜可确诊",
+        "key_questions": [
+          "咳嗽是否在运动后立即出现？",
+          "犬是否为小型犬（约克夏/博美/吉娃娃）？"
+        ]
+      },
+      {
+        "disease": "心力衰竭",
+        "differentiator": "心衰咳嗽常伴呼吸困难、运动不耐受、夜间加重；心脏听诊+B超可鉴别",
+        "key_questions": [
+          "犬是否有心脏病史？",
+          "咳嗽是否在夜间或躺下时加重？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物呼吸系统疾病学",
+      "BSAVA犬猫呼吸系统手册"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-resp-002",
+    "disease": "犬肺炎",
+    "species": [
+      "犬"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "咳嗽",
+        "呼吸困难",
+        "发热",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "食欲下降",
+        "流鼻涕",
+        "呼吸急促",
+        "体重下降"
+      ],
+      "detail": {
+        "咳嗽": {
+          "frequency": "持续性",
+          "content": "湿咳，可能带痰",
+          "trigger": "活动后加重"
+        },
+        "呼吸困难": {
+          "frequency": "持续性",
+          "content": "腹式呼吸、鼻翼煽动"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "犬肺炎是肺实质的炎症，病因包括细菌、病毒、真菌感染或吸入性（异物/呕吐物吸入）。诊断依据：咳嗽+发热+呼吸困难+X光肺部浸润阴影。血常规+CRP辅助判断感染程度。",
+    "home_care": "1. 严格限制运动，充分休息\n2. 保持环境温暖通风\n3. 使用加湿器辅助排痰\n4. 少量多次饮水\n5. 按兽医处方完成全程抗生素治疗（不可自行停药）",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行使用人用抗生素",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止强迫剧烈运动",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行停药（抗生素需用完整个疗程）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "抗生素（需兽医处方+药敏试验）",
+      "化痰药（需兽医处方）",
+      "支气管扩张剂（需兽医处方）",
+      "氧气疗法（需住院）"
+    ],
+    "vet_threshold": "以下情况需立即就医：1) 呼吸困难或张口呼吸；2) 舌色发紫；3) 高热不退；4) 精神极度萎靡；5) 食欲废绝超过24小时",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肺水肿",
+        "differentiator": "肺水肿发病更快，常伴心衰体征（心杂音/颈静脉怒张）；X光呈蝴蝶状阴影",
+        "key_questions": [
+          "犬是否有心脏病史？",
+          "发病是否非常突然？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物呼吸系统疾病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-resp-003",
+    "disease": "气管塌陷",
+    "species": [
+      "犬"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "特征性鹅鸣样咳嗽",
+        "呼吸困难",
+        "运动不耐受"
+      ],
+      "secondary": [
+        "发绀",
+        "昏厥"
+      ],
+      "detail": {
+        "特征性鹅鸣样咳嗽": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呼吸困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "运动不耐受": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "气管塌陷是气管软骨环薄弱导致气管管腔塌陷，多见于小型犬（约克夏/博美/吉娃娃/贵宾）。激动/运动/颈部压迫时加重。X光（吸气相+呼气相）+气管镜可确诊。",
+    "home_care": "改用胸背带代替颈圈\n控制体重\n避免高温高湿环境\n减少兴奋/运动\n使用加湿器",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用颈圈（改用胸背带）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止在高温天气遛狗",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止让犬过度兴奋",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "犬窝咳",
+        "differentiator": "窝咳有接触史、群居环境发病，无呼吸困难和运动不耐受",
+        "key_questions": [
+          "犬近期是否去过寄养/美容/犬舍？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物呼吸系统疾病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-resp-004",
+    "disease": "短头综合征",
+    "species": [
+      "犬"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "打鼾",
+        "呼吸困难",
+        "运动不耐受"
+      ],
+      "secondary": [
+        "张口呼吸",
+        "发绀",
+        "反流",
+        "中暑倾向"
+      ],
+      "detail": {
+        "打鼾": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呼吸困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "运动不耐受": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "短头综合征是短头品种犬（法斗/英斗/巴哥/波士顿梗）因解剖结构异常（狭窄鼻孔+软腭过长+喉囊外翻）导致的上呼吸道阻塞综合征。严重者需手术矫正。",
+    "home_care": "控制体重\n避免高温高湿环境\n使用空调\n避免剧烈运动\n考虑手术治疗（鼻孔扩大+软腭切除）",
+    "forbidden_care": [
+      {
+        "rule": "禁止夏季高温时段出门",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止强迫运动",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止长距离遛狗",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "喉麻痹",
+        "differentiator": "喉麻痹多见于老年大型犬，吸气时有特征性喘鸣音",
+        "key_questions": [
+          "犬是否为老年大型犬？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物呼吸系统疾病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-resp-005",
+    "disease": "肺水肿",
+    "species": [
+      "犬"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "呼吸困难",
+        "呼吸急促",
+        "咳嗽（湿咳）"
+      ],
+      "secondary": [
+        "发绀",
+        "泡沫样痰液",
+        "坐姿呼吸"
+      ],
+      "detail": {
+        "呼吸困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呼吸急促": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "咳嗽（湿咳）": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "肺水肿是肺毛细血管内液体渗入肺泡和肺间质，最常见原因为心源性（左心衰竭）。非心源性原因包括电击、中毒、低蛋白血症。X光+心脏B超可鉴别心源性与非心源性。",
+    "home_care": "⚠️ 此为急症，立即就医\n就医前保持犬安静坐姿\n吸氧治疗\n按兽医处方使用利尿剂和强心药",
+    "forbidden_care": [
+      {
+        "rule": "禁止灌水",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止让犬平躺",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止剧烈运动",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肺炎",
+        "differentiator": "肺炎常伴发热、白细胞升高；肺水肿发病更快，X光呈蝴蝶状阴影",
+        "key_questions": [
+          "犬是否有心脏病史？",
+          "发病是否非常突然？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物急诊医学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-resp-006",
+    "disease": "过敏性支气管炎",
+    "species": [
+      "犬"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "慢性咳嗽（干咳）",
+        "运动不耐受"
+      ],
+      "secondary": [
+        "偶尔喘息",
+        "呼吸困难（严重者）"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "过敏性支气管炎是对吸入性过敏原（花粉/尘螨/霉菌）的过敏性气道炎症。排除其他咳嗽病因后诊断。支气管灌洗见嗜酸性粒细胞增多支持诊断。",
+    "home_care": "环境过敏原控制（空气净化器）\n避免烟雾/香薰\n激素吸入剂（遵医嘱）\n支气管扩张剂",
+    "forbidden_care": [
+      {
+        "rule": "禁止在犬周围吸烟",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用有强烈气味的清洁剂",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "气管塌陷",
+        "differentiator": "气管塌陷X光可见气管管径变化，咳嗽有特征性鹅鸣音",
+        "key_questions": [
+          "咳嗽声音怎样？X光有无气管塌陷？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-resp-007",
+    "disease": "吸入性肺炎",
+    "species": [
+      "犬"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "呼吸困难",
+        "发热",
+        "咳嗽（湿咳）"
+      ],
+      "secondary": [
+        "精神萎靡",
+        "食欲废绝",
+        "发绀"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "吸入性肺炎是异物（呕吐物/食物/液体）吸入肺内导致感染和炎症。常见于麻醉后/巨食道症/喉麻痹/癫痫发作后犬。X光+支气管灌洗可确诊。",
+    "home_care": "⚠️ 需住院治疗\n广谱抗生素\n氧气疗法\n静脉输液\n治疗原发病因（巨食道症/喉麻痹）",
+    "forbidden_care": [
+      {
+        "rule": "禁止对高风险犬不做预防（麻醉前禁食/贝利椅喂食）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "细菌性肺炎",
+        "differentiator": "社区获得性肺炎有咳嗽发热但无吸入病史",
+        "key_questions": [
+          "有无麻醉/呕吐/癫痫发作后发生？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-resp-008",
+    "disease": "胸腔积液",
+    "species": [
+      "犬"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "呼吸困难",
+        "坐姿呼吸",
+        "呼吸急促"
+      ],
+      "secondary": [
+        "咳嗽",
+        "发绀",
+        "心音遥远"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "胸腔积液是胸膜腔内液体积聚（漏出液/渗出液/乳糜/血液）。病因包括心衰、肿瘤、感染（脓胸）、外伤、低蛋白血症。胸腔穿刺+积液分析+X光/B超可确诊。",
+    "home_care": "⚠️ 立即就医\n胸腔穿刺引流\n治疗原发病\n严重者胸腔引流管留置",
+    "forbidden_care": [
+      {
+        "rule": "禁止不查找原发病因就反复穿刺",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肺水肿",
+        "differentiator": "肺水肿X光见肺间质/肺泡浸润，胸腔积液见肋膈角消失",
+        "key_questions": [
+          "X光有无胸腔积液影像？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

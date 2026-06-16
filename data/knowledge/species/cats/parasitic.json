@@ -1,0 +1,283 @@
+[
+  {
+    "id": "feline-par-001",
+    "disease": "猫弓形虫病",
+    "species": [
+      "猫"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "发热",
+        "食欲下降",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "呼吸困难",
+        "黄疸",
+        "葡萄膜炎",
+        "神经症状"
+      ],
+      "detail": {
+        "发热": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "精神萎靡": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "弓形虫（Toxoplasma gondii）是猫为终宿主的寄生虫病。猫通常无症状，免疫低下猫和幼猫可出现临床症状。血清学检测（IgM/IgG）可辅助诊断。具有人畜共患风险（孕妇需特别注意）。",
+    "home_care": "克林霉素治疗（遵医嘱）\n严格室内饲养\n避免喂食生肉\n每日清理猫砂（卵囊需24-48小时才具有感染力）",
+    "forbidden_care": [
+      {
+        "rule": "禁止喂食生肉",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止孕妇清理猫砂",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不治疗免疫低下猫",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "FIP",
+        "differentiator": "FIP以胸腹水+神经症状+白球比<0.6为特征，弓形虫血清学可区分",
+        "key_questions": [
+          "猫有无户外活动史或吃生肉史？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-par-002",
+    "disease": "猫蛔虫病",
+    "species": [
+      "猫"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "腹泻",
+        "腹部胀大",
+        "体重下降"
+      ],
+      "secondary": [
+        "呕吐（可能吐出虫体）",
+        "被毛粗糙"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫蛔虫(Toxocara cati)是猫常见肠道寄生虫，幼猫感染率高（可经乳汁传播）。粪便漂浮法镜检虫卵可确诊。具有人畜共患风险。",
+    "home_care": "定期驱虫（幼猫每月，成猫每3个月）\n及时清理猫砂\n接触后洗手",
+    "forbidden_care": [
+      {
+        "rule": "禁止不按时驱虫",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用犬用驱虫药",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫绦虫",
+        "differentiator": "绦虫可在粪便/肛周见白色节片；蛔虫可见面条状成虫",
+        "key_questions": [
+          "粪便中可见虫体吗？什么形状？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-par-003",
+    "disease": "猫绦虫病",
+    "species": [
+      "猫"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "肛周白色米粒样节片",
+        "舔舐肛周"
+      ],
+      "secondary": [
+        "轻度腹泻",
+        "体重下降（严重感染）"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "猫绦虫常见犬复孔绦虫（经跳蚤传播）和猫绦虫（经鼠类传播）。肛周可见蠕动节片。吡喹酮治疗。",
+    "home_care": "吡喹酮驱虫\n控制跳蚤和鼠类\n定期驱虫",
+    "forbidden_care": [
+      {
+        "rule": "禁止不控制跳蚤（犬复孔绦虫传播必需跳蚤）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "蛔虫",
+        "differentiator": "蛔虫为完整虫体（面条状），绦虫为扁平节片",
+        "key_questions": [
+          "肛周有无白色会动的节片？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-par-004",
+    "disease": "猫球虫病",
+    "species": [
+      "猫"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "腹泻（可能带血/黏液）",
+        "体重下降",
+        "脱水"
+      ],
+      "secondary": [
+        "呕吐",
+        "食欲下降"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫球虫(Cystoisospora felis/rivolta)是幼猫常见肠道原虫。多猫环境（救助站/猫舍）高发。粪便漂浮法镜检卵囊可确诊。",
+    "home_care": "磺胺类药物治疗\n环境彻底消毒（卵囊对环境抵抗力强）\n隔离病猫\n保持环境干燥",
+    "forbidden_care": [
+      {
+        "rule": "禁止不处理环境（卵囊可长期存活）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "贾第虫",
+        "differentiator": "贾第虫腹泻更臭、粪便漂浮见滋养体/包囊；球虫见卵囊",
+        "key_questions": [
+          "粪便镜检结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-par-005",
+    "disease": "猫贾第虫病",
+    "species": [
+      "猫"
+    ],
+    "category": "寄生虫",
+    "symptoms": {
+      "primary": [
+        "慢性软便",
+        "腹泻（恶臭/油腻/浅色）",
+        "体重下降"
+      ],
+      "secondary": [
+        "被毛粗糙",
+        "食欲正常"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫贾第虫(Giardia)是肠道原虫，经粪-口传播。多猫环境高发。粪便漂浮法（硫酸锌）+ELISA抗原检测可诊断。人畜共患。",
+    "home_care": "甲硝唑或芬苯达唑治疗\n彻底环境消毒\n保持环境干燥\n同舍猫同时治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止仅治疗一只（同舍猫都需治疗）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫蛔虫",
+        "differentiator": "蛔虫可见成虫，镜检为虫卵而非原虫",
+        "key_questions": [
+          "粪便镜检有无原虫？ELISA？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

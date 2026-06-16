@@ -1,0 +1,451 @@
+[
+  {
+    "id": "canine-urinary-001",
+    "disease": "尿闭（下泌尿道阻塞）",
+    "species": [
+      "犬"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "排尿困难",
+        "尿频",
+        "排尿疼痛",
+        "血尿"
+      ],
+      "secondary": [
+        "食欲下降",
+        "精神萎靡",
+        "腹部胀大",
+        "呕吐"
+      ],
+      "detail": {
+        "排尿困难": {
+          "frequency": "持续",
+          "content": "频繁做出排尿姿势但无尿或仅滴出少量尿液"
+        },
+        "尿频": {
+          "frequency": "高频",
+          "content": "短时间内反复尝试排尿"
+        },
+        "排尿疼痛": {
+          "frequency": "伴随排尿",
+          "content": "排尿时发出哼叫或呻吟"
+        },
+        "血尿": {
+          "frequency": "间歇",
+          "content": "尿液呈粉红色或带有血丝/血块"
+        },
+        "腹部胀大": {
+          "frequency": "持续",
+          "content": "下腹部膨隆，触诊有抵抗感"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "犬尿闭是下泌尿道部分或完全阻塞导致的急症，常见原因包括膀胱结石、尿道结石、前列腺疾病（公犬）、肿瘤、尿道狭窄。完全阻塞24-48小时可导致膀胱破裂、急性肾衰竭，危及生命。诊断依据：排尿困难+尿频+触诊膀胱充盈。需立即就医进行导尿和影像学检查（X光/B超）。",
+    "home_care": "⚠️ 尿闭属于宠物急症，以下建议仅供就医前临时参考：\n1. 立即停止自行处理，尽快前往24小时宠物医院\n2. 路途上避免按压宠物腹部\n3. 不要强行灌水（尿液无法排出时会加重肾脏负担）\n4. 不要自行使用利尿剂或任何药物",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行导尿或按压膀胱",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用利尿剂或任何通淋药物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止强行灌水",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止等待观察——尿闭是急症，拖延可能导致膀胱破裂和肾衰竭",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医诊断后根据病因决定：结石溶解药物/抗生素/α受体阻断剂等，不可自行用药"
+    ],
+    "vet_threshold": "⚠️ 尿闭属于急症，任何疑似尿闭的情况都需立即就医：1) 超过12小时无正常排尿；2) 反复尝试排尿但无尿液排出；3) 排尿时惨叫；4) 尿中带血；5) 腹部胀大、触诊硬实；6) 伴发呕吐、精神萎靡。完全阻塞24小时内未处理可导致膀胱破裂。",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "膀胱炎（非阻塞性）",
+        "differentiator": "膀胱炎仍可排尿（量可能正常），以尿频、尿急、血尿为主但排尿通畅；尿闭无法排出尿液",
+        "key_questions": [
+          "宠物是否还能正常排尿？排尿量是否正常？"
+        ]
+      },
+      {
+        "disease": "急性肾衰竭",
+        "differentiator": "肾衰竭初期可能多尿，后期少尿/无尿；常伴明显全身症状（呕吐、口臭、口腔溃疡）；血液生化可确诊",
+        "key_questions": [
+          "宠物近期有无接触肾毒性物质（防冻液、葡萄、某些药物）？"
+        ]
+      },
+      {
+        "disease": "前列腺疾病（公犬）",
+        "differentiator": "前列腺肿大压迫尿道也可导致排尿困难，通常见于未绝育老年公犬；直肠触诊+B超可鉴别",
+        "key_questions": [
+          "宠物是否绝育？年龄多大？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物泌尿系统疾病学",
+      "BSAVA犬猫泌尿系统手册"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-uro-002",
+    "disease": "膀胱炎",
+    "species": [
+      "犬"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "尿频",
+        "排尿疼痛",
+        "血尿"
+      ],
+      "secondary": [
+        "乱尿",
+        "舔舐生殖器",
+        "尿液浑浊"
+      ],
+      "detail": {
+        "尿频": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "排尿疼痛": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "血尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "膀胱炎是膀胱黏膜的炎症，分为细菌性（最常见）和非细菌性（结石刺激/药物/肿瘤）。尿液分析+细菌培养+B超可确诊。",
+    "home_care": "鼓励多饮水\n增加排尿次数（多遛）\n按处方完成全程抗生素\n注意外阴清洁",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行使用抗生素",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止憋尿（长时间不遛）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用人用泌尿道药物",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "膀胱结石",
+        "differentiator": "结石可通过X光/B超确诊；血尿更明显，可能排尿中断",
+        "key_questions": [
+          "排尿是否时断时续？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物泌尿系统疾病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-uro-003",
+    "disease": "膀胱结石",
+    "species": [
+      "犬"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "血尿",
+        "排尿困难",
+        "尿频"
+      ],
+      "secondary": [
+        "排尿疼痛",
+        "乱尿",
+        "尿流中断"
+      ],
+      "detail": {
+        "血尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "排尿困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "尿频": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "犬膀胱结石常见类型为鸟粪石（磷酸铵镁）和草酸钙结石。与饮食、尿液pH值、遗传、感染相关。X光/B超可确诊。鸟粪石可通过处方粮溶解，草酸钙需手术取出。",
+    "home_care": "按兽医指导喂泌尿道处方粮\n保证充足饮水稀释尿液\n增加排尿次数\n定期复查B超监测结石变化",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行添加维生素C（草酸钙结石患者禁用）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止喂食高钙食物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不按处方粮要求随意喂食",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "膀胱肿瘤",
+        "differentiator": "肿瘤多见于老年犬，血尿持续不退，抗生素治疗无效；B超可见占位",
+        "key_questions": [
+          "犬年龄多大？",
+          "抗生素治疗后血尿是否好转？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物泌尿系统疾病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-uro-004",
+    "disease": "急性肾衰竭",
+    "species": [
+      "犬"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "少尿或无尿",
+        "呕吐",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "食欲下降",
+        "口臭",
+        "口腔溃疡",
+        "腹泻"
+      ],
+      "detail": {
+        "少尿或无尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呕吐": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "精神萎靡": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "急性肾衰竭是肾功能急剧下降，常见病因包括中毒（防冻液/葡萄/某些药物）、感染（钩端螺旋体）、缺血（休克/脱水）。血液生化（BUN/Crea急剧升高）+尿检+影像学可确诊。",
+    "home_care": "⚠️ 此为致命急症：立即就医\n就医前不要自行灌水\n记录近期可能接触的毒物\n住院进行静脉输液治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行大量灌水（无尿时加重体液负荷）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用肾毒性药物（NSAIDs/氨基糖苷类抗生素）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "慢性肾衰竭",
+        "differentiator": "慢性肾衰竭病程长、渐进性，常伴消瘦、多饮多尿史；急性肾衰突然发作",
+        "key_questions": [
+          "犬之前有无多饮多尿的症状？",
+          "症状是突然出现还是逐渐加重？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物泌尿系统疾病学"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-uro-005",
+    "disease": "慢性肾衰竭",
+    "species": [
+      "犬"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "多饮多尿",
+        "食欲下降",
+        "体重下降"
+      ],
+      "secondary": [
+        "呕吐",
+        "口臭",
+        "口腔溃疡",
+        "被毛粗糙"
+      ],
+      "detail": {
+        "多饮多尿": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "食欲下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "体重下降": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "慢性肾衰竭是肾单位进行性不可逆损失，常见于老年犬。早期仅多饮多尿，后期出现尿毒症症状。血液生化（BUN/Crea升高）+尿比重下降+SDMA升高可确诊。IRIS分期指导治疗。",
+    "home_care": "肾脏处方粮（低磷、优质蛋白）\n保证全天充足饮水\n定期监测血压\n每3-6个月复查肾功能\n皮下补液（按兽医指导）",
+    "forbidden_care": [
+      {
+        "rule": "禁止喂食高磷食物（内脏/骨头/蛋黄）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用肾毒性药物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不控制蛋白质摄入",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "糖尿病",
+        "differentiator": "糖尿病多饮多尿+体重下降+食欲增加，血糖显著升高",
+        "key_questions": [
+          "犬食欲是否反而增加？"
+        ]
+      }
+    ],
+    "references": [
+      "IRIS慢性肾病诊疗指南"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-uro-006",
+    "disease": "蛋白尿性肾病",
+    "species": [
+      "犬"
+    ],
+    "category": "泌尿系统",
+    "symptoms": {
+      "primary": [
+        "蛋白尿",
+        "腹水/水肿（低白蛋白）",
+        "体重下降"
+      ],
+      "secondary": [
+        "嗜睡",
+        "高血压"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "蛋白尿性肾病是肾小球疾病导致蛋白质大量丢失。可为免疫介导性（肾小球肾炎）、遗传性（某些品种）、或继发于感染/肿瘤。UPC>2.0+肾活检可确诊。",
+    "home_care": "肾脏处方粮\nACEI减少蛋白尿\n抗血栓（血栓风险高）\n控制高血压\n免疫抑制治疗（免疫介导性）",
+    "forbidden_care": [
+      {
+        "rule": "禁止高蛋白饮食",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不监测血压和UPC",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肾小管疾病",
+        "differentiator": "肾小管疾病以糖尿/氨基酸尿为主，肾小球疾病以白蛋白尿为主",
+        "key_questions": [
+          "UPC多少？尿蛋白电泳结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

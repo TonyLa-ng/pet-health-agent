@@ -1,0 +1,37 @@
+{
+  "species": "猫",
+  "normal_vitals": {
+    "temperature": { "min": 37.8, "max": 39.5, "unit": "℃" },
+    "heart_rate": { "min": 140, "max": 220, "unit": "bpm" },
+    "respiratory_rate": { "min": 20, "max": 40, "unit": "bpm" }
+  },
+  "emergency_override": [
+    {
+      "signal": "尿闭",
+      "base_score": 60,
+      "reason": "公猫尿道狭窄，尿闭24小时内可致命"
+    },
+    {
+      "signal": "张口呼吸",
+      "base_score": 55,
+      "reason": "猫正常不应张口呼吸，出现此症状提示严重呼吸窘迫"
+    }
+  ],
+  "extra_mandatory_fields": ["是否绝育（公猫尿闭高发于未绝育公猫）"],
+  "allow_cross_species_search": true,
+  "allow_disease_diagnosis": true,
+  "enabled_features": [
+    "symptom_check",
+    "emergency_detect",
+    "disease_diagnosis",
+    "home_care",
+    "followup_interview"
+  ],
+  "disabled_features": [],
+  "excluded_diseases": [],
+  "care_restrictions": [
+    "禁止喂食洋葱、大蒜、巧克力、百合花（对猫剧毒，可致肾衰竭）",
+    "禁止使用人用止痛药（布洛芬/对乙酰氨基酚对猫剧毒）",
+    "禁止给猫使用犬用驱虫药（部分犬用药含菊酯类，对猫剧毒）"
+  ]
+}

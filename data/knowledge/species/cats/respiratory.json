@@ -1,0 +1,299 @@
+[
+  {
+    "id": "feline-resp-001",
+    "disease": "猫上呼吸道感染(猫鼻支)",
+    "species": [
+      "猫"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "打喷嚏",
+        "流鼻涕",
+        "结膜炎"
+      ],
+      "secondary": [
+        "发热",
+        "食欲下降",
+        "流口水",
+        "角膜溃疡"
+      ],
+      "detail": {
+        "打喷嚏": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "流鼻涕": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "结膜炎": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫上呼吸道感染最常见病原体为猫疱疹病毒1型（FHV-1，猫鼻支）和猫杯状病毒（FCV）。多猫环境（猫舍/救助站）高发。PCR可确诊病原体。",
+    "home_care": "隔离病猫\n保持环境温暖通风\n清理眼鼻分泌物\n鼓励进食（加热食物增加香味）\nL-赖氨酸（FHV-1辅助治疗）",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用人用感冒药",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止与其他猫接触",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫衣原体感染",
+        "differentiator": "衣原体以结膜炎为主，呼吸道症状较轻；PCR可区分病原体",
+        "key_questions": [
+          "猫有无脓性眼分泌物？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-resp-002",
+    "disease": "猫哮喘",
+    "species": [
+      "猫"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "阵发性咳嗽",
+        "呼吸困难",
+        "喘鸣"
+      ],
+      "secondary": [
+        "张口呼吸",
+        "运动不耐受"
+      ],
+      "detail": {
+        "阵发性咳嗽": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呼吸困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "喘鸣": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫哮喘是过敏性下呼吸道疾病，支气管收缩+黏液分泌增多导致气流受限。发作时呈蹲伏姿势、伸颈呼吸。X光（支气管壁增厚/过度充气）+支气管灌洗可辅助诊断。",
+    "home_care": "环境控制（无尘猫砂/空气净化器/避免烟雾）\n控制体重\n按医嘱使用吸入性激素（猫专用吸入器）\n急性发作需急诊吸氧+支气管扩张剂",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用有尘猫砂",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止在猫周围吸烟/使用香薰/空气清新剂",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "心力衰竭",
+        "differentiator": "心衰心脏听诊异常+B超可见心脏扩大，X光可见肺水肿而非支气管壁增厚",
+        "key_questions": [
+          "猫有无心脏病史？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-resp-003",
+    "disease": "猫肺炎",
+    "species": [
+      "猫"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "呼吸困难",
+        "咳嗽",
+        "发热"
+      ],
+      "secondary": [
+        "食欲废绝",
+        "精神萎靡",
+        "张口呼吸"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫肺炎可为细菌性/病毒性/吸入性/真菌性。猫肺炎症状隐匿，常在应激后急性恶化。X光+支气管灌洗+PCR可诊断。",
+    "home_care": "住院治疗\n广谱抗生素\n氧气疗法\n营养支持（可能需饲管）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不积极治疗（猫肺炎恶化快）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肺水肿",
+        "differentiator": "肺水肿发病更急，X光特征不同，常有心衰病史",
+        "key_questions": [
+          "X光表现如何？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-resp-004",
+    "disease": "猫支气管炎",
+    "species": [
+      "猫"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "慢性咳嗽",
+        "呼吸音粗",
+        "偶发呼吸困难"
+      ],
+      "secondary": [
+        "食欲下降",
+        "精神萎靡"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫支气管炎是支气管慢性炎症，可能与过敏/刺激物/感染相关。咳嗽可能是猫唯一症状。X光见支气管壁增厚+支气管灌洗细胞学可诊断。",
+    "home_care": "环境控制（无尘猫砂/空气净化器）\n支气管扩张剂+激素（吸入或口服）\n控制应激",
+    "forbidden_care": [
+      {
+        "rule": "禁止在猫周围吸烟",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用有尘猫砂",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫哮喘",
+        "differentiator": "哮喘急性发作症状更剧烈（伸颈呼吸/喘鸣），支气管灌洗见嗜酸性粒细胞",
+        "key_questions": [
+          "发作时有无喘鸣音？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-resp-005",
+    "disease": "猫脓胸",
+    "species": [
+      "猫"
+    ],
+    "category": "呼吸系统",
+    "symptoms": {
+      "primary": [
+        "呼吸困难",
+        "发热",
+        "精神萎靡"
+      ],
+      "secondary": [
+        "食欲废绝",
+        "体重下降",
+        "心音遥远"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "猫脓胸是胸腔内化脓性积液。常见于多猫环境幼猫，常继发于呼吸道感染。胸腔穿刺抽出脓性积液可确诊。需胸腔引流+抗生素灌洗。",
+    "home_care": "⚠️ 需住院治疗\n胸腔引流管留置+灌洗\n广谱抗生素（长疗程）\n营养支持",
+    "forbidden_care": [
+      {
+        "rule": "禁止仅用抗生素不引流脓液",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "乳糜胸",
+        "differentiator": "乳糜胸积液为乳白色（乳糜），甘油三酯高；脓胸为脓性",
+        "key_questions": [
+          "积液外观和细胞学检查？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

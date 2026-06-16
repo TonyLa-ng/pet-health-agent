@@ -1,0 +1,112 @@
+[
+  {
+    "id": "feline-msk-001",
+    "disease": "猫关节炎",
+    "species": [
+      "猫"
+    ],
+    "category": "骨骼肌肉",
+    "symptoms": {
+      "primary": [
+        "活动减少",
+        "跳跃困难",
+        "不愿跳上高处"
+      ],
+      "secondary": [
+        "行为改变（躲藏/攻击性）",
+        "步态僵硬"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫关节炎很常见（>12岁猫中>90%有关节退行性变），但猫不会明显跛行。猫表现更隐匿：减少跳跃、使用矮家具、猫砂盆外围排泄。X光可确诊。",
+    "home_care": "控制体重\n关节营养品（葡萄糖胺/Omega-3）\n环境改造（矮猫砂盆/斜坡）\nNSAIDs（猫专用，遵医嘱，短程低剂量）\n物理治疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用犬用NSAIDs（对猫可能致死）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不控制体重",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "脊柱病",
+        "differentiator": "脊柱病可有神经症状（本体感觉异常），X光可区分",
+        "key_questions": [
+          "有无后肢无力或神经异常？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-msk-002",
+    "disease": "猫骨关节炎（老年猫）",
+    "species": [
+      "猫"
+    ],
+    "category": "骨骼肌肉",
+    "symptoms": {
+      "primary": [
+        "活动水平下降",
+        "梳毛减少",
+        "性格改变"
+      ],
+      "secondary": [
+        "跛行（不常见）",
+        "肌肉萎缩"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "猫骨关节炎发病率随年龄显著升高。大型猫（缅因/布偶）和肥胖猫风险更高。X光可确诊，但影像学严重度与临床症状不完全相关。",
+    "home_care": "控制体重\n环境改造\n关节营养品\n疼痛管理（猫专用加巴喷丁/NSAIDs）",
+    "forbidden_care": [
+      {
+        "rule": "禁止忽视猫的疼痛信号",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止使用人用或犬用止痛药",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "退行性关节病(DJD)",
+        "differentiator": "DJD与OA本质相同，DJD强调退行性成分，OA强调炎症成分",
+        "key_questions": [
+          "猫年龄多大？有无活动减少？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

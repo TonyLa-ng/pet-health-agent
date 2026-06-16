@@ -1,0 +1,107 @@
+[
+  {
+    "id": "feline-oto-001",
+    "disease": "猫耳螨",
+    "species": [
+      "猫"
+    ],
+    "category": "耳科",
+    "symptoms": {
+      "primary": [
+        "耳道咖啡渣样分泌物",
+        "剧烈瘙痒（挠耳/甩头）"
+      ],
+      "secondary": [
+        "耳廓脱毛",
+        "外耳炎"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫耳螨(Otodectes cynotis)是猫最常见外耳寄生虫，高度传染。耳镜检查可见白色爬行虫体+耳分泌物镜检可见虫体。",
+    "home_care": "杀螨耳药（塞拉菌素/伊维菌素）\n同舍猫同时治疗\n环境清洁",
+    "forbidden_care": [
+      {
+        "rule": "禁止仅治疗一只猫（同舍猫都需治疗）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理环境",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "马拉色菌耳炎",
+        "differentiator": "马拉色菌见酵母菌而非虫体，耳分泌物为深褐色蜡质而非咖啡渣样",
+        "key_questions": [
+          "耳分泌物镜检有无虫体？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-oto-002",
+    "disease": "猫耳息肉",
+    "species": [
+      "猫"
+    ],
+    "category": "耳科",
+    "symptoms": {
+      "primary": [
+        "慢性耳道感染",
+        "甩头",
+        "耳道肿块"
+      ],
+      "secondary": [
+        "中耳炎",
+        "前庭症状"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫耳息肉（炎性息肉）是幼猫常见的良性增生，起源于中耳或咽鼓管，经鼓膜向耳道生长。耳镜+影像学可诊断。手术切除（腹侧鼓室截骨术）可根治。",
+    "home_care": "手术切除（需彻底去除根部）\n术后抗生素+止痛\n复发监测",
+    "forbidden_care": [
+      {
+        "rule": "禁止仅耳道切除不处理鼓室内根部（易复发）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "耳道肿瘤",
+        "differentiator": "肿瘤多见于老年猫，活检病理可确诊",
+        "key_questions": [
+          "猫年龄多大？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

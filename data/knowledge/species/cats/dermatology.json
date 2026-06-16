@@ -1,0 +1,392 @@
+[
+  {
+    "id": "feline-derm-001",
+    "disease": "猫癣菌病",
+    "species": [
+      "猫"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "圆形脱毛斑",
+        "皮屑",
+        "红斑"
+      ],
+      "secondary": [
+        "瘙痒",
+        "结痂",
+        "甲沟炎"
+      ],
+      "detail": {
+        "圆形脱毛斑": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "皮屑": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "红斑": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫癣菌病多为犬小孢子菌（Microsporum canis）感染，幼猫和免疫低下猫高发。具有人畜共患风险。Wood灯（部分菌株荧光）+真菌培养+毛发镜检可确诊。",
+    "home_care": "抗真菌药浴（咪康唑/氯己定香波）\n口服抗真菌药（伊曲康唑/特比萘芬）\n环境彻底消毒（吸尘+次氯酸钠）\n治疗至连续2次真菌培养阴性",
+    "forbidden_care": [
+      {
+        "rule": "禁止自行停药（需培养阴性）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理环境（孢子可存活18个月）",
+        "condition": "default"
+      },
+      {
+        "rule": "注意人感染风险——接触后洗手",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫精神性脱毛",
+        "differentiator": "精神性脱毛多因过度理毛（应激），脱毛区域对称，皮肤本身正常",
+        "key_questions": [
+          "脱毛区域皮肤有无异常？"
+        ]
+      }
+    ],
+    "references": [
+      "猫病学第4版"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-derm-002",
+    "disease": "猫粟粒性皮炎",
+    "species": [
+      "猫"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "全身散在小丘疹/结痂",
+        "瘙痒"
+      ],
+      "secondary": [
+        "脱毛",
+        "皮肤增厚"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫粟粒性皮炎是猫特征性过敏性皮肤病，触诊可感到粟粒样小丘疹/结痂。最常见病因：跳蚤过敏（最常见）、食物过敏、特应性皮炎。",
+    "home_care": "严格驱虫（跳蚤是首要排查对象）\n食物排除试验\n抗组胺药/激素（短期，遵医嘱）",
+    "forbidden_care": [
+      {
+        "rule": "禁止不做跳蚤控制就诊断食物过敏",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止长期使用激素不查找病因",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "猫精神性脱毛",
+        "differentiator": "精神性脱毛皮肤本身正常，毛干断裂（显微镜可见）；粟粒性皮炎有明显皮损",
+        "key_questions": [
+          "皮肤有无丘疹和结痂？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-derm-003",
+    "disease": "猫精神性脱毛",
+    "species": [
+      "猫"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "对称性脱毛",
+        "过度理毛"
+      ],
+      "secondary": [
+        "皮肤正常（无红疹/无皮屑）"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "猫精神性脱毛是猫因心理应激（环境变化/多猫冲突/无聊）过度理毛导致的脱毛。脱毛区域皮肤外观正常。需排除瘙痒性皮肤病。",
+    "home_care": "环境丰富化（玩具/猫抓板/高处/藏身处）\n费洛蒙扩散器\n减少应激源\n行为矫正",
+    "forbidden_care": [
+      {
+        "rule": "禁止惩罚过度理毛行为",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不排除皮肤病因就诊断为精神性",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "过敏",
+        "differentiator": "过敏有明显瘙痒+皮肤病变（红斑/丘疹/结痂）；精神性皮肤正常",
+        "key_questions": [
+          "皮肤外观是否正常？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-derm-004",
+    "disease": "猫嗜酸性肉芽肿综合征",
+    "species": [
+      "猫"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "皮肤增生性病变（唇/腹部/后腿）",
+        "口腔溃疡",
+        "脱毛斑块"
+      ],
+      "secondary": [
+        "瘙痒",
+        "疼痛"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫嗜酸性肉芽肿综合征是猫特有的免疫介导性皮肤病，可能与过敏（跳蚤/食物/环境）相关。临床表现多样：无痛性溃疡（上唇）、嗜酸性斑块（腹部/大腿内侧）、嗜酸性肉芽肿（线性增生）。细胞学见大量嗜酸性粒细胞可诊断。",
+    "home_care": "激素治疗（泼尼松龙，遵医嘱）\n环孢素（严重/难治性）\n查找过敏原（跳蚤/食物）\n严格驱虫",
+    "forbidden_care": [
+      {
+        "rule": "禁止不做跳蚤控制",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止长期激素不做病因排查",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "鳞状细胞癌",
+        "differentiator": "SCC多见于老年猫鼻尖/耳尖，为侵蚀性溃疡，活检可确诊",
+        "key_questions": [
+          "病变在什么部位？猫年龄多大？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-derm-005",
+    "disease": "猫痤疮",
+    "species": [
+      "猫"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "下颏黑头粉刺",
+        "局部脱毛",
+        "红肿"
+      ],
+      "secondary": [
+        "继发感染（脓疱）",
+        "瘙痒"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "猫痤疮是下颏毛囊角化异常+继发感染。可能与塑料食盆过敏、理毛不足、应激相关。严重者可形成化脓性毛囊炎和蜂窝织炎。",
+    "home_care": "改用陶瓷/不锈钢食盆\n定期清洁下颏（氯己定/过氧化苯甲酰）\n严重者局部抗生素/维A酸",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用塑料食盆",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止挤压粉刺",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "嗜酸性肉芽肿",
+        "differentiator": "嗜酸性肉芽肿为增生性病变，细胞学见嗜酸性粒细胞",
+        "key_questions": [
+          "病变是否在下颏？有无做过细胞学？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-derm-006",
+    "disease": "猫耳廓皮肤病（光化性皮炎）",
+    "species": [
+      "猫"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "耳尖红肿/脱屑/结痂",
+        "耳尖卷曲"
+      ],
+      "secondary": [
+        "瘙痒",
+        "疼痛"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "光化性皮炎是白毛猫耳尖因长期日晒导致的皮肤损伤，可进展为鳞状细胞癌。需防晒和早期手术。",
+    "home_care": "严格防晒（室内/防晒霜）\n严重者耳尖切除术\n定期检查恶变（活检）",
+    "forbidden_care": [
+      {
+        "rule": "禁止让白毛猫长期暴晒",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "耳螨",
+        "differentiator": "耳螨在耳道内而非耳尖，可见咖啡渣样分泌物和虫体",
+        "key_questions": [
+          "病变在耳尖还是耳道内？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-derm-007",
+    "disease": "猫皮肤肥大细胞瘤",
+    "species": [
+      "猫"
+    ],
+    "category": "皮肤科",
+    "symptoms": {
+      "primary": [
+        "皮肤结节（单个或多个）",
+        "瘙痒"
+      ],
+      "secondary": [
+        "红斑",
+        "脱毛"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫皮肤肥大细胞瘤较犬常见，多为良性。组织细胞型多见于年轻猫（<4岁的暹罗猫），可自行消退。肥大细胞型多见于老年猫。细针穿刺细胞学可快速诊断。手术切除可治愈。",
+    "home_care": "手术切除（宽边缘）\n组织细胞型可观察（可能自愈）\n活检病理确定分型",
+    "forbidden_care": [
+      {
+        "rule": "禁止不切除（少数恶性型可转移）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "嗜酸性肉芽肿",
+        "differentiator": "嗜酸性肉芽肿细胞学见嗜酸性粒细胞而非肥大细胞",
+        "key_questions": [
+          "细针穿刺细胞学结果？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

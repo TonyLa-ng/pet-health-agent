@@ -1,0 +1,165 @@
+[
+  {
+    "id": "canine-dent-001",
+    "disease": "牙周病",
+    "species": [
+      "犬"
+    ],
+    "category": "口腔",
+    "symptoms": {
+      "primary": [
+        "口臭",
+        "牙龈红肿",
+        "牙结石"
+      ],
+      "secondary": [
+        "牙齿松动",
+        "牙龈萎缩",
+        "食欲下降"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "犬牙周病是牙菌斑→牙结石→牙龈炎→牙周炎的渐进性疾病。小型犬和老年犬高发。牙科探诊+X光可分期。严重者可导致菌血症和心内膜炎。",
+    "home_care": "每日刷牙（犬用牙膏）\n定期洗牙（兽医操作）\n洁牙零食/咬胶\n定期口腔检查",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用人用牙膏（氟化物对犬有毒）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理严重牙周病（可影响全身健康）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "口腔肿瘤",
+        "differentiator": "肿瘤呈肿块状生长，X光可见骨溶解；牙周病为弥漫性",
+        "key_questions": [
+          "口内有无明显肿块？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-dent-002",
+    "disease": "牙龈炎",
+    "species": [
+      "犬"
+    ],
+    "category": "口腔",
+    "symptoms": {
+      "primary": [
+        "牙龈红肿",
+        "口臭",
+        "牙龈易出血"
+      ],
+      "secondary": [
+        "食欲下降",
+        "流涎"
+      ],
+      "detail": {}
+    },
+    "urgency": "low",
+    "diagnosis_basis": "牙龈炎是牙周病的早期阶段，仅累及牙龈，未破坏牙周膜和牙槽骨。牙菌斑是主要原因。及时治疗可完全逆转。",
+    "home_care": "每日刷牙\n定期洗牙\n洁牙零食",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用人用牙膏",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不处理（会进展为牙周病）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "口腔溃疡",
+        "differentiator": "溃疡有凹陷、疼痛明显；牙龈炎为弥漫性红肿无溃疡",
+        "key_questions": [
+          "牙龈有无明显溃疡？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-dent-003",
+    "disease": "口腔肿瘤",
+    "species": [
+      "犬"
+    ],
+    "category": "口腔",
+    "symptoms": {
+      "primary": [
+        "口腔肿块",
+        "口臭",
+        "流涎带血"
+      ],
+      "secondary": [
+        "牙齿松动",
+        "面部肿胀",
+        "吞咽困难"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "犬口腔肿瘤常见类型为恶性黑色素瘤、鳞状细胞癌、纤维肉瘤、牙龈瘤。活检病理可确诊。",
+    "home_care": "尽早就医检查\n根治性手术切除（下颌骨或上颌骨切除术）\n术后可能需放化疗",
+    "forbidden_care": [
+      {
+        "rule": "禁止拖延——早期切除范围小，功能影响小",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "牙龈增生",
+        "differentiator": "牙龈增生为良性过度生长，质地较硬，无破溃和骨溶解",
+        "key_questions": [
+          "肿块质地如何？有无破溃？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

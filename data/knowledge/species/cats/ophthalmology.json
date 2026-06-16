@@ -1,0 +1,164 @@
+[
+  {
+    "id": "feline-oph-001",
+    "disease": "猫结膜炎",
+    "species": [
+      "猫"
+    ],
+    "category": "眼科",
+    "symptoms": {
+      "primary": [
+        "结膜充血",
+        "眼分泌物",
+        "频繁眨眼"
+      ],
+      "secondary": [
+        "眼睑痉挛",
+        "第三眼睑突出"
+      ],
+      "detail": {}
+    },
+    "urgency": "medium",
+    "diagnosis_basis": "猫结膜炎常见病原为猫疱疹病毒(FHV-1)、猫衣原体(Chlamydia felis)、猫支原体。多猫环境高发。PCR+结膜细胞学可鉴别病原。",
+    "home_care": "按医嘱使用抗病毒/抗生素眼药水\nL-赖氨酸（FHV-1辅助）\n隔离病猫\n保持环境清洁",
+    "forbidden_care": [
+      {
+        "rule": "禁止使用含激素眼药水（FHV-1感染时）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止与其他猫共用眼药",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "角膜溃疡",
+        "differentiator": "溃疡荧光素染色阳性，猫表现为剧烈疼痛和畏光",
+        "key_questions": [
+          "有无做过荧光素染色？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-oph-002",
+    "disease": "猫角膜坏死（角膜腐骨）",
+    "species": [
+      "猫"
+    ],
+    "category": "眼科",
+    "symptoms": {
+      "primary": [
+        "角膜黑褐色斑块",
+        "疼痛（眯眼/流泪）",
+        "眼分泌物"
+      ],
+      "secondary": [
+        "角膜血管化",
+        "结膜充血"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫角膜坏死是猫特有的角膜病变，角膜基质坏死呈黑褐色斑块。波斯猫/暹罗猫/FHV-1感染猫高发。角膜切除术+结膜瓣覆盖是主要治疗。",
+    "home_care": "尽快就医\n角膜切除术（移除坏死组织）\n术后抗生素眼药",
+    "forbidden_care": [
+      {
+        "rule": "禁止拖延（坏死可深入穿孔）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行使用眼药水",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "角膜黑色素瘤",
+        "differentiator": "黑色素瘤为隆起肿块，坏死为平坦凹陷的黑褐色斑块",
+        "key_questions": [
+          "病变是平坦还是隆起？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "feline-oph-003",
+    "disease": "猫葡萄膜炎",
+    "species": [
+      "猫"
+    ],
+    "category": "眼科",
+    "symptoms": {
+      "primary": [
+        "瞳孔缩小",
+        "房水闪辉",
+        "结膜充血"
+      ],
+      "secondary": [
+        "畏光",
+        "眼压降低",
+        "虹膜颜色改变"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "猫葡萄膜炎病因复杂：FIP/FIV/FeLV/弓形虫/真菌/外伤/肿瘤。需查找全身性病因。眼压测量+裂隙灯+全身检查。",
+    "home_care": "查找全身性病因\n局部激素（遵医嘱）\n阿托品散瞳止痛（遵医嘱）\n治疗原发病",
+    "forbidden_care": [
+      {
+        "rule": "禁止不经检查就随意使用眼药水",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或出现急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "青光眼",
+        "differentiator": "青光眼眼压升高（>25mmHg），瞳孔散大；葡萄膜炎眼压降低，瞳孔缩小",
+        "key_questions": [
+          "眼压多少？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

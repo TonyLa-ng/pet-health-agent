@@ -1,0 +1,25 @@
+{
+  "species": "犬",
+  "normal_vitals": {
+    "temperature": { "min": 37.5, "max": 39.2, "unit": "℃" },
+    "heart_rate": { "min": 60, "max": 140, "unit": "bpm" },
+    "respiratory_rate": { "min": 10, "max": 30, "unit": "bpm" }
+  },
+  "emergency_override": [],
+  "extra_mandatory_fields": [],
+  "allow_cross_species_search": true,
+  "allow_disease_diagnosis": true,
+  "enabled_features": [
+    "symptom_check",
+    "emergency_detect",
+    "disease_diagnosis",
+    "home_care",
+    "followup_interview"
+  ],
+  "disabled_features": [],
+  "excluded_diseases": [],
+  "care_restrictions": [
+    "禁止喂食巧克力、洋葱、大蒜、葡萄、夏威夷果",
+    "禁止使用人用止痛药（布洛芬/对乙酰氨基酚对犬剧毒）"
+  ]
+}

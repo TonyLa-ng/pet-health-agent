@@ -1,0 +1,331 @@
+[
+  {
+    "id": "canine-cardio-001",
+    "disease": "二尖瓣关闭不全",
+    "species": [
+      "犬"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "咳嗽",
+        "运动不耐受",
+        "呼吸困难"
+      ],
+      "secondary": [
+        "夜间不安",
+        "昏厥",
+        "腹围增大"
+      ],
+      "detail": {
+        "咳嗽": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "运动不耐受": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呼吸困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "二尖瓣关闭不全是犬最常见的心脏病，小型老年犬（骑士查理王小猎犬/贵宾/吉娃娃）高发。二尖瓣退行性病变导致血液反流→左心房扩大→肺水肿。心脏听诊（心杂音）+B超可确诊。",
+    "home_care": "低钠饮食\n适度运动（不过度）\n控制体重\n定期心脏B超复查\n按医嘱服用ACEI/匹莫苯丹等",
+    "forbidden_care": [
+      {
+        "rule": "禁止高盐食物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止剧烈运动",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行停药",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "扩张型心肌病(DCM)",
+        "differentiator": "DCM多见于大型犬（杜宾/拳师/大丹），以心脏扩大+收缩功能下降为特征",
+        "key_questions": [
+          "犬是否为大型犬？"
+        ]
+      }
+    ],
+    "references": [
+      "ACVIM心脏病诊疗共识"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-cardio-002",
+    "disease": "扩张型心肌病(DCM)",
+    "species": [
+      "犬"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "运动不耐受",
+        "呼吸困难",
+        "咳嗽"
+      ],
+      "secondary": [
+        "昏厥",
+        "腹围增大（腹水）",
+        "体重下降"
+      ],
+      "detail": {
+        "运动不耐受": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呼吸困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "咳嗽": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "DCM是心肌收缩功能下降导致心脏扩大和心力衰竭，多见于大型犬（杜宾/拳师/大丹/爱尔兰猎狼犬）。部分与无谷粮相关（牛磺酸缺乏）。心脏B超+Holter可确诊。",
+    "home_care": "严格限制运动\n低钠饮食\n按医嘱服用强心药和利尿剂\n定期心脏B超+Holter复查",
+    "forbidden_care": [
+      {
+        "rule": "禁止高盐食物",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止剧烈运动",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行停药",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "二尖瓣关闭不全",
+        "differentiator": "二尖瓣病常见心杂音更响（≥3/6级），B超可见二尖瓣反流而非心肌变薄",
+        "key_questions": [
+          "犬是否为小型老年犬？",
+          "心杂音等级？"
+        ]
+      }
+    ],
+    "references": [
+      "ACVIM心脏病诊疗共识"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-cardio-003",
+    "disease": "心丝虫病",
+    "species": [
+      "犬"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "咳嗽",
+        "运动不耐受",
+        "呼吸困难"
+      ],
+      "secondary": [
+        "体重下降",
+        "昏厥",
+        "腹水",
+        "咳血"
+      ],
+      "detail": {
+        "咳嗽": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "运动不耐受": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        },
+        "呼吸困难": {
+          "frequency": "按病程",
+          "content": "按具体表现"
+        }
+      }
+    },
+    "urgency": "high",
+    "diagnosis_basis": "心丝虫（Dirofilaria immitis）经蚊虫叮咬传播，成虫寄生于肺动脉和右心室。抗原检测+血液微丝蚴镜检可确诊。",
+    "home_care": "定期使用心丝虫预防药（每月1次）\n治疗期间严格限制运动（防止虫体栓塞）\n按兽医方案进行成虫杀灭治疗\n治疗后3-6个月复查抗原",
+    "forbidden_care": [
+      {
+        "rule": "禁止未经预防直接去蚊虫多发区",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止治疗期间运动（虫体死亡栓塞风险）",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止自行使用杀虫药",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方根据确诊结果决定具体用药"
+    ],
+    "vet_threshold": "如有以下情况需立即就医：症状持续加重、出现急症指征、精神萎靡或食欲废绝",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "肺动脉高压",
+        "differentiator": "肺动脉高压无心丝虫抗原阳性，B超可见肺动脉压升高但无虫体影像",
+        "key_questions": [
+          "犬是否在使用心丝虫预防药？",
+          "是否去过心丝虫疫区？"
+        ]
+      }
+    ],
+    "references": [
+      "美国心丝虫协会诊疗指南"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-cardio-004",
+    "disease": "肺动脉高压",
+    "species": [
+      "犬"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "运动不耐受",
+        "呼吸困难",
+        "昏厥"
+      ],
+      "secondary": [
+        "右心衰竭体征（腹水/颈静脉怒张）",
+        "发绀"
+      ],
+      "detail": {}
+    },
+    "urgency": "high",
+    "diagnosis_basis": "肺动脉高压是肺动脉压力持续升高导致右心室负荷增加。可继发于心丝虫病/慢性肺病/左心衰。心脏B超（三尖瓣反流速度推算肺动脉压）可诊断。",
+    "home_care": "治疗原发病（心丝虫/肺病）\n西地那非（扩张肺动脉）\n控制运动\n吸氧（急性加重期）",
+    "forbidden_care": [
+      {
+        "rule": "禁止剧烈运动",
+        "condition": "default"
+      },
+      {
+        "rule": "禁止不治疗原发病",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "原发性右心衰竭",
+        "differentiator": "B超测肺动脉压可区分；原发性右心衰肺动脉压不高",
+        "key_questions": [
+          "有无心丝虫检测？B超肺动脉压多少？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  },
+  {
+    "id": "canine-cardio-005",
+    "disease": "心包积液",
+    "species": [
+      "犬"
+    ],
+    "category": "心血管",
+    "symptoms": {
+      "primary": [
+        "嗜睡",
+        "腹围增大（腹水）",
+        "运动不耐受"
+      ],
+      "secondary": [
+        "呼吸困难",
+        "心音遥远",
+        "奇脉"
+      ],
+      "detail": {}
+    },
+    "urgency": "critical",
+    "diagnosis_basis": "心包积液是心包腔内液体积聚→心脏压塞。常见病因：肿瘤（血管肉瘤/心脏基瘤）、特发性心包炎。B超（心包腔内无回声区+右心房舒张期塌陷）可确诊。心包穿刺可挽救生命。",
+    "home_care": "⚠️ 立即就医\n心包穿刺引流\n查找原发病因（B超排查肿瘤）\n心包切除术（复发者）",
+    "forbidden_care": [
+      {
+        "rule": "禁止等待观察（心脏压塞可迅速致死）",
+        "condition": "default"
+      }
+    ],
+    "medication": [
+      "需兽医处方"
+    ],
+    "vet_threshold": "症状加重或急症请立即就医",
+    "confidence": "high",
+    "differential_diagnosis": [
+      {
+        "disease": "扩张型心肌病",
+        "differentiator": "DCM以心脏扩大+收缩功能下降为特征，无心包积液",
+        "key_questions": [
+          "B超有无心包积液？"
+        ]
+      }
+    ],
+    "references": [
+      "小动物医学参考"
+    ],
+    "version": 1,
+    "status": "active",
+    "created_at": "2026-06-14",
+    "updated_at": "2026-06-14",
+    "reviewed_by": null
+  }
+]

@@ -1,0 +1,388 @@
+{
+  "timestamp": "2026-06-15T06:02:56.358Z",
+  "tests": [
+    {
+      "name": "homepage_headers",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-frame-options": "DENY",
+        "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "name": "create_rate_limit_invalid_body_6x",
+      "statuses": [
+        {
+          "status": 400,
+          "body": {
+            "error": "缺少 petId 参数"
+          }
+        },
+        {
+          "status": 400,
+          "body": {
+            "error": "缺少 petId 参数"
+          }
+        },
+        {
+          "status": 400,
+          "body": {
+            "error": "缺少 petId 参数"
+          }
+        },
+        {
+          "status": 400,
+          "body": {
+            "error": "缺少 petId 参数"
+          }
+        },
+        {
+          "status": 400,
+          "body": {
+            "error": "缺少 petId 参数"
+          }
+        },
+        {
+          "status": 429,
+          "body": {
+            "error": "创建会话过于频繁，请稍后重试",
+            "retryAfter": 60
+          }
+        }
+      ]
+    },
+    {
+      "name": "invalid_species_returns",
+      "status": 500,
+      "body": {
+        "error": "创建会话失败"
+      }
+    },
+    {
+      "name": "active_session_limit_4_valid_sessions",
+      "created": [
+        {
+          "status": 200,
+          "body": {
+            "sessionId": "ses-mqet431t-bf5a2f42",
+            "state": "created",
+            "createdAt": 1781503376754
+          }
+        },
+        {
+          "status": 200,
+          "body": {
+            "sessionId": "ses-mqet4324-4752cdd1",
+            "state": "created",
+            "createdAt": 1781503376764
+          }
+        },
+        {
+          "status": 200,
+          "body": {
+            "sessionId": "ses-mqet432a-53915d24",
+            "state": "created",
+            "createdAt": 1781503376770
+          }
+        },
+        {
+          "status": 429,
+          "body": {
+            "error": "同时进行的问诊会话已达上限（3个），请先完成或关闭进行中的问诊"
+          }
+        }
+      ]
+    },
+    {
+      "name": "complete_active_session_ses-mqet431t-bf5a2f42",
+      "status": 200,
+      "state": "reported",
+      "triage": {
+        "isEmergency": false,
+        "level": "normal",
+        "score": 24,
+        "alerts": [
+          "匹配急症信号: 呼吸困难",
+          "急症评分: 24/100"
+        ],
+        "matchedSignals": [
+          "呼吸困难"
+        ],
+        "durationExtracted": "unknown",
+        "durationConflict": false,
+        "durationEffect": "negative",
+        "isRevisit": false,
+        "lowRiskReminder": true
+      },
+      "reportSource": "knowledge_base",
+      "topTitle": "宠物基础信息",
+      "topContent": "品种：金毛  年龄：3岁  体重：25kg  免疫情况：已完成基础免疫  既往病史：无"
+    },
+    {
+      "name": "complete_active_session_ses-mqet4324-4752cdd1",
+      "status": 200,
+      "state": "reported",
+      "triage": {
+        "isEmergency": false,
+        "level": "normal",
+        "score": 24,
+        "alerts": [
+          "匹配急症信号: 呼吸困难",
+          "急症评分: 24/100"
+        ],
+        "matchedSignals": [
+          "呼吸困难"
+        ],
+        "durationExtracted": "unknown",
+        "durationConflict": false,
+        "durationEffect": "negative",
+        "isRevisit": false,
+        "lowRiskReminder": true
+      },
+      "reportSource": "knowledge_base",
+      "topTitle": "宠物基础信息",
+      "topContent": "品种：金毛  年龄：3岁  体重：25kg  免疫情况：已完成基础免疫  既往病史：无"
+    },
+    {
+      "name": "complete_active_session_ses-mqet432a-53915d24",
+      "status": 200,
+      "state": "reported",
+      "triage": {
+        "isEmergency": false,
+        "level": "normal",
+        "score": 24,
+        "alerts": [
+          "匹配急症信号: 呼吸困难",
+          "急症评分: 24/100"
+        ],
+        "matchedSignals": [
+          "呼吸困难"
+        ],
+        "durationExtracted": "unknown",
+        "durationConflict": false,
+        "durationEffect": "negative",
+        "isRevisit": false,
+        "lowRiskReminder": true
+      },
+      "reportSource": "knowledge_base",
+      "topTitle": "宠物基础信息",
+      "topContent": "品种：金毛  年龄：3岁  体重：25kg  免疫情况：已完成基础免疫  既往病史：无"
+    },
+    {
+      "name": "cat_urinary_kb_path",
+      "create": {
+        "status": 200,
+        "body": {
+          "sessionId": "ses-mqet55zw-ff699949",
+          "state": "created",
+          "createdAt": 1781503427228
+        }
+      },
+      "message": {
+        "status": 200,
+        "state": "followup_r1",
+        "triage": {
+          "isEmergency": false,
+          "level": "watch",
+          "score": 45,
+          "alerts": [
+            "检测到需要关注的症状，请在报告中查看紧急就医指征",
+            "匹配急症信号: 抽搐、尿闭",
+            "急症评分: 45/100"
+          ],
+          "matchedSignals": [
+            "抽搐",
+            "尿闭"
+          ],
+          "durationExtracted": "conflict",
+          "durationConflict": true,
+          "durationEffect": "negative",
+          "isRevisit": false,
+          "lowRiskReminder": false
+        },
+        "interview": {
+          "isComplete": false,
+          "missingFields": [],
+          "questions": [
+            {
+              "field": "diff_feline-cardio-004",
+              "question": "有无心丝虫检测？",
+              "guidance": "帮助区分「猫心丝虫病」与「猫哮喘」",
+              "priority": 1
+            },
+            {
+              "field": "diff_feline-urinary-001",
+              "question": "猫是否还能排出一些尿液？排尿量是否明显减少？",
+              "guidance": "帮助区分「猫下泌尿道疾病/尿闭（FLUTD/FUS）」与「特发性膀胱炎（FIC，非阻塞性）」",
+              "priority": 1
+            },
+            {
+              "field": "diff_feline-urinary-001",
+              "question": "猫之前是否有过泌尿问题？饮食类型是什么？",
+              "guidance": "帮助区分「猫下泌尿道疾病/尿闭（FLUTD/FUS）」与「膀胱结石（非阻塞性）」",
+              "priority": 1
+            }
+          ],
+          "roundsUsed": 1,
+          "skippedFields": [],
+          "uncollectableFields": [],
+          "mandatoryFieldsCompleted": [],
+          "mandatoryFieldsMissing": []
+        }
+      }
+    },
+    {
+      "name": "out_of_kb_fallback_claimed_web",
+      "create": {
+        "status": 200,
+        "body": {
+          "sessionId": "ses-mqet57aj-8c6f7ffd",
+          "state": "created",
+          "createdAt": 1781503428907
+        }
+      },
+      "message": {
+        "status": 200,
+        "state": "followup_r1"
+      }
+    },
+    {
+      "name": "toxin_exposure_compliance_block",
+      "create": {
+        "status": 200,
+        "body": {
+          "sessionId": "ses-mqet58nl-b2b1861c",
+          "state": "created",
+          "createdAt": 1781503430673
+        }
+      },
+      "message": {
+        "status": 200,
+        "state": "collecting",
+        "sseEvents": [
+          {
+            "section": "error",
+            "data": {
+              "message": "输入内容包含违规信息，请修改后重试",
+              "violations": [
+                {
+                  "ruleName": "folk_remedies",
+                  "matchedText": "洋葱",
+                  "timestamp": 1781503430684,
+                  "category": "folk_remedy"
+                }
+              ]
+            },
+            "timestamp": 1781503430684,
+            "isComplete": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "message_rate_limit_missing_session_16x",
+      "statuses": [
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 404,
+          "body": {
+            "error": "会话不存在"
+          }
+        },
+        {
+          "status": 429,
+          "retryAfter": "60",
+          "body": {
+            "error": "请求过于频繁",
+            "retryAfter": 60
+          }
+        }
+      ]
+    }
+  ]
+}
