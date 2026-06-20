@@ -1,63 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pet Health Agent｜宠物医疗问诊 AI Agent Demo
 
-## Getting Started
+## 1. 项目背景
+宠物主人在居家轻症判断、急症识别、护理建议获取上存在信息不对称。本项目定位为“基础初筛 + 风险提示 + 居家护理指引”，不替代线下兽医诊疗。
 
-First, run the development server:
+## 2. 核心能力
+- 症状结构化提取
+- 急症关键词识别
+- 结构化知识库检索
+- 候选疾病赋分与排序
+- 自动追问补全信息
+- 报告生成与风险提示
+- 未命中场景的大模型兜底回答
 
-```bash
+## 3. 工作流
+用户输入 → 输入合规检查 → 症状归一化 → 急症识别 → RAG / 知识库检索 → 候选疾病排序 → 自动追问 → 置信度计算 → 报告输出
+
+## 4. 技术架构
+前端：Next.js / React / TypeScript  
+后端逻辑：TypeScript + Python 辅助脚本  
+知识库：结构化疾病知识库  
+AI：大模型 API + Prompt Engineering  
+安全边界：急症优先提示、非诊疗声明、来源标注
+
+## 5. Demo 演示
+放 2—3 张截图，或者放一个 GIF：
+- 输入症状页
+- 自动追问页
+- 报告输出页
+
+## 6. 典型案例
+输入：“猫咪今天一直蹲猫砂盆但尿不出来”
+输出：触发急症风险提示，建议立即就医，并列出可能方向和需补充信息。
+
+## 7. 如何运行
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Web Search Tool
-
-The agent can enrich non-knowledge-base fallback answers with a configurable HTTP search tool.
-It is disabled unless `WEB_SEARCH_ENDPOINT` is set.
-
-```bash
-WEB_SEARCH_PROVIDER=generic
-WEB_SEARCH_ENDPOINT=https://your-search-service.example/search
-WEB_SEARCH_API_KEY=your-search-key
-WEB_SEARCH_MAX_RESULTS=3
-WEB_SEARCH_TIMEOUT_MS=5000
-```
-
-The generic endpoint is called with `POST` JSON:
-
-```json
-{
-  "query": "猫 排尿困难 兽医 宠物疾病 急症处理",
-  "q": "猫 排尿困难 兽医 宠物疾病 急症处理",
-  "max_results": 3,
-  "maxResults": 3
-}
-```
-
-Supported response shapes include `results`, `organic_results`, `items`, or `webPages.value`.
-Each item should include a `title`, `url` or `link`, and `snippet`, `content`, or `description`.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 8. 可迁移场景
+- 企业客服知识库问答
+- 售后工单智能分流
+- 内部制度问答助手
+- 销售知识库助手
+- 服务商运营异常识别
